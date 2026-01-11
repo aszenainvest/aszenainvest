@@ -3,7 +3,6 @@ import { MapPin, Clock } from 'lucide-react';
 import SEO from '../components/SEO';
 import partnershipImage from '../assets/partnership.jpg';
 import holidayImage from '../assets/holiday.png';
-import nationalImage from '../assets/national.png';
 import areaImage from '../assets/area.png';
 import donobeImage from '../assets/donobe.png';
 import roofImage from '../assets/roof.png';
@@ -26,7 +25,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.nationalPark.location'),
       type: t('partnerships.projects.nationalPark.type'),
       description: t('partnerships.projects.nationalPark.description'),
-      image: nationalImage
+      image: partnershipImage
     },
     {
       title: t('partnerships.projects.militaryArea.name'),

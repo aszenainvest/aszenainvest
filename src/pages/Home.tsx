@@ -1,5 +1,6 @@
 import { useLanguage } from '../hooks/useLanguage';
 import { Link } from 'react-router-dom';
+import { getRoute } from '../utils/routes';
 import {
   Building2,
   Target,
@@ -15,7 +16,7 @@ import SEO from '../components/SEO';
 import heroBudapest from '../assets/hero-budapest.jpg';
 
 const Home = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const stats = [
     { icon: Ruler, number: '+200.000 m²', label: t('stats.projectDevelopment') },
@@ -24,12 +25,7 @@ const Home = () => {
 
   return (
     <div>
-      <SEO 
-        title="Aszena Invest - Budapest Real Estate Investment | Trust - Vision - Growth"
-        description="Budapest-based real estate investment company with 30+ years of experience. Specializing in project development, management, and strategic partnerships across Hungary, Croatia, Greece, and Turkey."
-        keywords="Aszena Invest, Budapest real estate, Hungary investment, project development, project management, real estate Budapest, property investment Hungary, hotel development, commercial real estate, joint ventures, Matild Palace, off-market properties"
-        url="https://www.aszenainvest.hu"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="relative min-h-[70vh] md:min-h-[80vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroBudapest})` }}>
@@ -46,7 +42,7 @@ const Home = () => {
                 <p className="text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/90 leading-relaxed mb-3 md:mb-4 lg:mb-5 font-medium drop-shadow-md">{t('hero.subtitle')}</p>
                 <div className="mt-2 md:mt-3">
                   <div className="flex items-center gap-2 md:gap-3 flex-wrap">
-                    <Link to="/hakkimizda">
+                    <Link to={getRoute(language, 'about')}>
                       <Button className="btn-primary text-xs md:text-sm lg:text-base xl:text-lg px-3 md:px-4 lg:px-5 py-1.5 md:py-2 lg:py-2.5 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-primary-deep">
                         {t('common.learnMore')}
                         <ArrowRight className="w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4 ml-1 md:ml-2" />

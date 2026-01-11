@@ -6,334 +6,334 @@
   <!-- ==================== HOME PAGE ==================== -->
   <!-- Turkish (Default) -->
   <url>
-    <loc>https://www.aszenainvest.hu</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr" />
   </url>
   
   <!-- English Home -->
   <url>
     <loc>https://www.aszenainvest.hu/en</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr" />
   </url>
   
   <!-- Arabic Home -->
   <url>
     <loc>https://www.aszenainvest.hu/ar</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr" />
   </url>
   
   <!-- ==================== ABOUT PAGE ==================== -->
   <!-- Turkish About -->
   <url>
-    <loc>https://www.aszenainvest.hu/hakkimizda</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/hakkimizda</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/about" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/hakkimizda" />
   </url>
   
   <!-- English About -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/hakkimizda</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/about</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/about" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/hakkimizda" />
   </url>
   
   <!-- Arabic About -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/hakkimizda</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/about" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/hakkimizda" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/hakkimizda" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/hakkimizda" />
   </url>
   
   <!-- ==================== PROJECT MANAGEMENT PAGE ==================== -->
   <!-- Turkish Project Management -->
   <url>
-    <loc>https://www.aszenainvest.hu/proje-yonetimi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/proje-yonetimi</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-management" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
   </url>
   
   <!-- English Project Management -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/proje-yonetimi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/project-management</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-management" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
   </url>
   
   <!-- Arabic Project Management -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/proje-yonetimi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-management" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-yonetimi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-yonetimi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-yonetimi" />
   </url>
   
   <!-- ==================== COMPLETED PROJECTS PAGE ==================== -->
   <!-- Turkish Completed Projects -->
   <url>
-    <loc>https://www.aszenainvest.hu/tamamlanan-projeler</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/tamamlanan-projeler</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/completed-projects" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
   </url>
   
   <!-- English Completed Projects -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/tamamlanan-projeler</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/completed-projects</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/completed-projects" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
   </url>
   
   <!-- Arabic Completed Projects -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/tamamlanan-projeler</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/completed-projects" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tamamlanan-projeler" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tamamlanan-projeler" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tamamlanan-projeler" />
   </url>
   
   <!-- ==================== JOINT VENTURES & PARTNERSHIPS PAGE ==================== -->
   <!-- Turkish Joint Ventures -->
   <url>
-    <loc>https://www.aszenainvest.hu/ortak-girisim-isbirlikleri</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/partnerships" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
   </url>
   
   <!-- English Joint Ventures -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/ortak-girisim-isbirlikleri</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/partnerships</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/partnerships" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
   </url>
   
   <!-- Arabic Joint Ventures -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/ortak-girisim-isbirlikleri</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/partnerships" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/ortak-girisim-isbirlikleri" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/ortak-girisim-isbirlikleri" />
   </url>
   
   <!-- ==================== PROJECT DEVELOPMENT PAGE ==================== -->
   <!-- Turkish Project Development -->
   <url>
-    <loc>https://www.aszenainvest.hu/proje-gelistirme</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/proje-gelistirme</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-development" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
   </url>
   
   <!-- English Project Development -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/proje-gelistirme</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/project-development</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-development" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
   </url>
   
   <!-- Arabic Project Development -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/proje-gelistirme</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/project-development" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/proje-gelistirme" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/proje-gelistirme" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/proje-gelistirme" />
   </url>
   
   <!-- ==================== AGRICULTURE PAGE ==================== -->
   <!-- Turkish Agriculture -->
   <url>
-    <loc>https://www.aszenainvest.hu/tarim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/tarim</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tarim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tarim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tarim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/agriculture" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tarim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tarim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tarim" />
   </url>
   
   <!-- English Agriculture -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/tarim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/agriculture</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tarim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tarim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tarim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/agriculture" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tarim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tarim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tarim" />
   </url>
   
   <!-- Arabic Agriculture -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/tarim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tarim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/tarim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/tarim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/agriculture" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/tarim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tarim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/tarim" />
   </url>
   
   <!-- ==================== LIFESTYLE & SOCIAL INVESTMENTS PAGE ==================== -->
   <!-- Turkish Lifestyle -->
   <url>
-    <loc>https://www.aszenainvest.hu/yasam-tarzi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/yasam-tarzi</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/lifestyle" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
   </url>
   
   <!-- English Lifestyle -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/yasam-tarzi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/lifestyle</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/lifestyle" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
   </url>
   
   <!-- Arabic Lifestyle -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/yasam-tarzi</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/lifestyle" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/yasam-tarzi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/yasam-tarzi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/yasam-tarzi" />
   </url>
   
   <!-- ==================== CONTACT PAGE ==================== -->
   <!-- Turkish Contact -->
   <url>
-    <loc>https://www.aszenainvest.hu/iletisim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/tr/iletisim</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/iletisim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/iletisim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/iletisim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/contact" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/iletisim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/iletisim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/iletisim" />
   </url>
   
   <!-- English Contact -->
   <url>
-    <loc>https://www.aszenainvest.hu/en/iletisim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <loc>https://www.aszenainvest.hu/en/contact</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/iletisim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/iletisim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/iletisim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/contact" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/iletisim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/iletisim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/iletisim" />
   </url>
   
   <!-- Arabic Contact -->
   <url>
     <loc>https://www.aszenainvest.hu/ar/iletisim</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/iletisim" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/iletisim" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.aszenainvest.hu/tr/iletisim" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aszenainvest.hu/en/contact" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.aszenainvest.hu/ar/iletisim" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/iletisim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aszenainvest.hu/tr/iletisim" />
   </url>
   
 </urlset>

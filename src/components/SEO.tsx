@@ -1,6 +1,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLanguage } from '../hooks/useLanguage';
+import { getRoute } from '../utils/routes';
+import trTranslations from '../i18n/tr.json';
+import enTranslations from '../i18n/en.json';
+import arTranslations from '../i18n/ar.json';
+
+const translations = {
+  tr: trTranslations,
+  en: enTranslations,
+  ar: arTranslations,
+};
 
 interface SEOProps {
   title?: string;
@@ -23,9 +33,54 @@ const SEO: React.FC<SEOProps> = ({
 }) => {
   const { language, t } = useLanguage();
   
-  const defaultTitle = 'Aszena Invest - Trust - Vision - Growth';
-  const defaultDescription = t('hero.subtitle');
-  const defaultKeywords = 'Aszena Invest, Budapest, real estate, investment, project development, project management, Hungary, Croatia, Turkey, Middle East, joint ventures, partnerships, agriculture, lifestyle investments, Petrus 2017 Sailing Club, Olive Island Marina';
+  // Get SEO data from i18n based on current route
+  const getSEOData = () => {
+    const pathname = window.location.pathname;
+    let seoKey = 'home';
+    
+    if (pathname.includes('/hakkimizda') || pathname.includes('/about')) {
+      seoKey = 'about';
+    } else if (pathname.includes('/proje-gelistirme') || pathname.includes('/project-development')) {
+      seoKey = 'projectDevelopment';
+    } else if (pathname.includes('/proje-yonetimi') || pathname.includes('/project-management')) {
+      seoKey = 'projectManagement';
+    } else if (pathname.includes('/ortak-girisim') || pathname.includes('/partnerships')) {
+      seoKey = 'partnerships';
+    } else if (pathname.includes('/tamamlanan-projeler') || pathname.includes('/completed-projects')) {
+      seoKey = 'completedProjects';
+    } else if (pathname.includes('/tarim') || pathname.includes('/agriculture')) {
+      seoKey = 'agriculture';
+    } else if (pathname.includes('/yasam-tarzi') || pathname.includes('/lifestyle')) {
+      seoKey = 'lifestyle';
+    } else if (pathname.includes('/iletisim') || pathname.includes('/contact')) {
+      seoKey = 'contact';
+    }
+    
+    try {
+      const langTranslations = translations[language as keyof typeof translations] as any;
+      const seoData = langTranslations?.seo?.[seoKey];
+      if (seoData && typeof seoData === 'object') {
+        return {
+          title: seoData.title || 'Aszena Invest - Trust - Vision - Growth',
+          description: seoData.description || t('hero.subtitle'),
+          keywords: seoData.keywords || 'Aszena Invest, Budapest, real estate, investment'
+        };
+      }
+    } catch (e) {
+      // Fallback if translation key doesn't exist
+    }
+    
+    return {
+      title: 'Aszena Invest - Trust - Vision - Growth',
+      description: t('hero.subtitle'),
+      keywords: 'Aszena Invest, Budapest, real estate, investment, project development, project management, Hungary, Croatia, Turkey, Middle East, joint ventures, partnerships, agriculture, lifestyle investments, Petrus 2017 Sailing Club, Olive Island Marina'
+    };
+  };
+  
+  const seoData = getSEOData();
+  const defaultTitle = seoData.title;
+  const defaultDescription = seoData.description;
+  const defaultKeywords = seoData.keywords;
   
   const currentTitle = title || defaultTitle;
   const currentDescription = description || defaultDescription;
@@ -205,10 +260,41 @@ const SEO: React.FC<SEOProps> = ({
       <link rel="canonical" href={currentUrl} />
       
       {/* Alternate Language Links */}
-      <link rel="alternate" hrefLang="tr" href={`https://www.aszenainvest.hu/tr${window.location.pathname}`} />
-      <link rel="alternate" hrefLang="en" href={`https://www.aszenainvest.hu/en${window.location.pathname}`} />
-      <link rel="alternate" hrefLang="ar" href={`https://www.aszenainvest.hu/ar${window.location.pathname}`} />
-      <link rel="alternate" hrefLang="x-default" href={`https://www.aszenainvest.hu${window.location.pathname}`} />
+      {(() => {
+        const pathname = window.location.pathname;
+        let routeKey = 'home';
+        
+        if (pathname.includes('/hakkimizda') || pathname.includes('/about')) {
+          routeKey = 'about';
+        } else if (pathname.includes('/proje-gelistirme') || pathname.includes('/project-development')) {
+          routeKey = 'projectDevelopment';
+        } else if (pathname.includes('/proje-yonetimi') || pathname.includes('/project-management')) {
+          routeKey = 'projectManagement';
+        } else if (pathname.includes('/ortak-girisim') || pathname.includes('/partnerships')) {
+          routeKey = 'partnerships';
+        } else if (pathname.includes('/tamamlanan-projeler') || pathname.includes('/completed-projects')) {
+          routeKey = 'completedProjects';
+        } else if (pathname.includes('/tarim') || pathname.includes('/agriculture')) {
+          routeKey = 'agriculture';
+        } else if (pathname.includes('/yasam-tarzi') || pathname.includes('/lifestyle')) {
+          routeKey = 'lifestyle';
+        } else if (pathname.includes('/iletisim') || pathname.includes('/contact')) {
+          routeKey = 'contact';
+        }
+        
+        const trUrl = `https://www.aszenainvest.hu${getRoute('tr', routeKey)}`;
+        const enUrl = `https://www.aszenainvest.hu${getRoute('en', routeKey)}`;
+        const arUrl = `https://www.aszenainvest.hu${getRoute('ar', routeKey)}`;
+        
+        return (
+          <>
+            <link rel="alternate" hrefLang="tr" href={trUrl} />
+            <link rel="alternate" hrefLang="en" href={enUrl} />
+            <link rel="alternate" hrefLang="ar" href={arUrl} />
+            <link rel="alternate" hrefLang="x-default" href={trUrl} />
+          </>
+        );
+      })()}
       
       {/* Structured Data */}
       <script type="application/ld+json">

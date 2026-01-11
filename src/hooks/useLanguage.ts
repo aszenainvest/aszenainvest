@@ -22,10 +22,24 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(undefine
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguage] = useState<Language>('tr');
 
+  // Detect language from URL on mount
   useEffect(() => {
-    const saved = localStorage.getItem('aszena-language') as Language;
-    if (saved === 'tr' || saved === 'en' || saved === 'ar') {
-      setLanguage(saved);
+    const pathname = window.location.pathname;
+    if (pathname.startsWith('/tr')) {
+      setLanguage('tr');
+      localStorage.setItem('aszena-language', 'tr');
+    } else if (pathname.startsWith('/en')) {
+      setLanguage('en');
+      localStorage.setItem('aszena-language', 'en');
+    } else if (pathname.startsWith('/ar')) {
+      setLanguage('ar');
+      localStorage.setItem('aszena-language', 'ar');
+    } else {
+      // Check localStorage or default to Turkish
+      const saved = localStorage.getItem('aszena-language') as Language;
+      if (saved === 'tr' || saved === 'en' || saved === 'ar') {
+        setLanguage(saved);
+      }
     }
   }, []);
 

@@ -18,12 +18,7 @@ const Hakkimizda = () => {
 
   return (
     <div>
-      <SEO 
-        title="About Us - Aszena Invest | 30+ Years Real Estate Experience"
-        description="Learn about Aszena Invest, Budapest's leading real estate investment company. With over 30 years of experience, we specialize in project development, management, and strategic partnerships across Central Europe and the Mediterranean."
-        keywords="about Aszena Invest, Budapest investment company, real estate experience, company history, mission vision, Hungary real estate experts, property development team, investment professionals"
-        url="https://www.aszenainvest.hu/hakkimizda"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${budapestSkyline})` }}>

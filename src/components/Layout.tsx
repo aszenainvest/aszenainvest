@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Building2, Mail, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import { Button } from './ui/button';
+import { getRoute, getRouteKeyFromPath } from '../utils/routes';
 // Header uses main logo; Footer uses white logo
 const logoAszena = '/aszena.svg';
 const logoNoBackground = '/logo-white.svg';
@@ -12,23 +13,52 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const { language, changeLanguage, t } = useLanguage();
   const location = useLocation();
+  const navigate = useNavigate();
+
+  // Detect language from URL and update context
+  useEffect(() => {
+    const pathname = location.pathname;
+    if (pathname.startsWith('/tr') && language !== 'tr') {
+      changeLanguage('tr');
+    } else if (pathname.startsWith('/en') && language !== 'en') {
+      changeLanguage('en');
+    } else if (pathname.startsWith('/ar') && language !== 'ar') {
+      changeLanguage('ar');
+    }
+  }, [location.pathname, language, changeLanguage]);
 
   // RTL support for Arabic
   const isRTL = language === 'ar';
 
-  const mainNavigation = [
-    { name: t('nav.home'), href: '/', key: 'home' },
-    { name: t('nav.about'), href: '/hakkimizda', key: 'about' },
-    { name: t('nav.partnerships'), href: '/ortak-girisim-isbirlikleri', key: 'partnerships' },
-    { name: t('nav.completedProjects'), href: '/tamamlanan-projeler', key: 'completedProjects' },
-    { name: t('nav.agriculture'), href: '/tarim', key: 'agriculture' },
-    { name: t('nav.projectManagement'), href: '/proje-yonetimi', key: 'projectManagement' },
-  ];
+  // Get navigation items with language-prefixed URLs
+  const getNavItems = () => {
+    const baseItems = [
+      { name: t('nav.home'), key: 'home' },
+      { name: t('nav.about'), key: 'about' },
+      { name: t('nav.partnerships'), key: 'partnerships' },
+      { name: t('nav.completedProjects'), key: 'completedProjects' },
+      { name: t('nav.agriculture'), key: 'agriculture' },
+      { name: t('nav.projectManagement'), key: 'projectManagement' },
+    ];
+    return baseItems.map(item => ({
+      ...item,
+      href: getRoute(language, item.key),
+    }));
+  };
 
-  const dropdownItems = [
-    { name: t('nav.projectDevelopment'), href: '/proje-gelistirme', key: 'projectDevelopment' },
-    { name: t('nav.lifestyle'), href: '/yasam-tarzi', key: 'lifestyle' },
-  ];
+  const getDropdownItems = () => {
+    const baseItems = [
+      { name: t('nav.projectDevelopment'), key: 'projectDevelopment' },
+      { name: t('nav.lifestyle'), key: 'lifestyle' },
+    ];
+    return baseItems.map(item => ({
+      ...item,
+      href: getRoute(language, item.key),
+    }));
+  };
+
+  const mainNavigation = getNavItems();
+  const dropdownItems = getDropdownItems();
 
   const allNavigation = [...mainNavigation, ...dropdownItems];
 
@@ -60,7 +90,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm p-2">
         <div className="w-full px-6 sm:px-8 lg:px-24">
           <div className="flex justify-between items-center h-16 gap-4">
-            <Link to="/" className="flex items-center">
+            <Link to={getRoute(language, 'home')} className="flex items-center">
               <img src={logoAszena} alt="Aszena Invest Logo" className="w-16 h-16 object-contain" loading="lazy" />
             </Link>
 
@@ -133,7 +163,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <div className="hidden md:flex items-center space-x-2">
               <div className="flex items-center bg-muted/30 rounded-lg p-1 backdrop-blur-sm border border-white/20 shadow-sm">
                 <button 
-                  onClick={() => changeLanguage('tr')} 
+                  onClick={() => {
+                    const routeKey = getRouteKeyFromPath(location.pathname);
+                    changeLanguage('tr');
+                    navigate(getRoute('tr', routeKey), { replace: true });
+                  }} 
                   className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                     language === 'tr' 
                       ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
@@ -144,7 +178,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   <span>TR</span>
                 </button>
                 <button 
-                  onClick={() => changeLanguage('en')} 
+                  onClick={() => {
+                    const routeKey = getRouteKeyFromPath(location.pathname);
+                    changeLanguage('en');
+                    navigate(getRoute('en', routeKey), { replace: true });
+                  }} 
                   className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                     language === 'en' 
                       ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
@@ -155,7 +193,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   <span>EN</span>
                 </button>
                 <button 
-                  onClick={() => changeLanguage('ar')} 
+                  onClick={() => {
+                    const routeKey = getRouteKeyFromPath(location.pathname);
+                    changeLanguage('ar');
+                    navigate(getRoute('ar', routeKey), { replace: true });
+                  }} 
                   className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                     language === 'ar' 
                       ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
@@ -195,7 +237,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <div className="flex items-center space-x-2 pt-2">
                 <div className="flex items-center bg-muted/30 rounded-lg p-1 backdrop-blur-sm border border-white/20 shadow-sm">
                   <button 
-                    onClick={() => changeLanguage('tr')} 
+                    onClick={() => {
+                      const routeKey = getRouteKeyFromPath(location.pathname);
+                      changeLanguage('tr');
+                      navigate(getRoute('tr', routeKey), { replace: true });
+                    }} 
                     className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                       language === 'tr' 
                         ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
@@ -206,7 +252,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     <span>TR</span>
                   </button>
                   <button 
-                    onClick={() => changeLanguage('en')} 
+                    onClick={() => {
+                      const routeKey = getRouteKeyFromPath(location.pathname);
+                      changeLanguage('en');
+                      navigate(getRoute('en', routeKey), { replace: true });
+                    }} 
                     className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                       language === 'en' 
                         ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
@@ -217,7 +267,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     <span>EN</span>
                   </button>
                   <button 
-                    onClick={() => changeLanguage('ar')} 
+                    onClick={() => {
+                      const routeKey = getRouteKeyFromPath(location.pathname);
+                      changeLanguage('ar');
+                      navigate(getRoute('ar', routeKey), { replace: true });
+                    }} 
                     className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
                       language === 'ar' 
                         ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 

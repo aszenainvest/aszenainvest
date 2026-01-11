@@ -577,5 +577,52 @@
   },
   "toast": {
     "messageSent": "Message Sent"
+  },
+  "seo": {
+    "home": {
+      "title": "Aszena Invest - Budapest Real Estate Investment | Trust - Vision - Growth",
+      "description": "Budapest-based real estate investment company with 30+ years of experience. Specializing in project development, management, and strategic partnerships across Hungary, Croatia, Greece, and Turkey.",
+      "keywords": "Aszena Invest, Budapest real estate, Hungary investment, project development, project management, real estate Budapest, property investment Hungary, hotel development, commercial real estate, joint ventures, Matild Palace, off-market properties"
+    },
+    "about": {
+      "title": "About Us - Aszena Invest | 30+ Years Real Estate Experience",
+      "description": "Learn about Aszena Invest, Budapest's leading real estate investment company. With over 30 years of experience, we specialize in project development, management, and strategic partnerships across Central Europe and the Mediterranean.",
+      "keywords": "about Aszena Invest, Budapest investment company, real estate experience, company history, mission vision, Hungary real estate experts, property development team, investment professionals"
+    },
+    "projectDevelopment": {
+      "title": "Project Development - Aszena Invest | Real Estate Project Development Services",
+      "description": "Aszena Invest's project development services. We develop safe and high-value projects for business partners by developing selected projects in the right locations.",
+      "keywords": "project development, real estate development, property development, construction projects, investment projects, Budapest project development"
+    },
+    "projectManagement": {
+      "title": "Project Management - Aszena Invest | Professional Project Management Services",
+      "description": "Aszena Invest's project management services. We provide comprehensive project management services from acquisition to completion.",
+      "keywords": "project management, construction management, project consultancy, investment management, Budapest project management"
+    },
+    "partnerships": {
+      "title": "Partnerships & Collaborations - Aszena Invest | Strategic Partnerships",
+      "description": "Aszena Invest's joint ventures and collaborations. Project management services in projects carried out with international partnerships and foreign capital collaborations.",
+      "keywords": "joint ventures, collaborations, strategic partnerships, international partnerships, investment partnerships"
+    },
+    "completedProjects": {
+      "title": "Completed Projects - Aszena Invest | Our Successful Projects",
+      "description": "Aszena Invest's completed projects. The projects we have successfully completed to date and our achievements.",
+      "keywords": "completed projects, successful projects, reference projects, Matild Palace, Central Palace, project portfolio"
+    },
+    "agriculture": {
+      "title": "Agriculture and Forest - Aszena Invest | Agriculture Investments",
+      "description": "Aszena Invest's agriculture and forest investments. Sustainable agriculture projects and forest management services.",
+      "keywords": "agriculture investments, forest management, sustainable agriculture, agriculture projects"
+    },
+    "lifestyle": {
+      "title": "Lifestyle & Social Investments - Aszena Invest | Petrus 2017 Sailing Club",
+      "description": "Aszena Invest's lifestyle and social investments. Petrus 2017 Sailing Club in Croatia and Olive Island Marina projects.",
+      "keywords": "lifestyle investments, social investments, sailing club, marina, Croatia investments, Adriatic"
+    },
+    "contact": {
+      "title": "Contact - Aszena Invest | Get in Touch with Us",
+      "description": "Contact Aszena Invest. Get in touch with us for real estate investment consultancy based in Budapest.",
+      "keywords": "Aszena Invest contact, investment consultancy, Budapest contact, real estate consultancy"
+    }
   }
 }

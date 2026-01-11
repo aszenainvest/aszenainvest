@@ -565,5 +565,52 @@
   },
   "toast": {
     "messageSent": "Mesaj Gönderildi"
+  },
+  "seo": {
+    "home": {
+      "title": "Aszena Invest - Budapeşte Gayrimenkul Yatırım | Güven - Vizyon - Büyüme",
+      "description": "2010'dan beri faaliyet gösteren, 30 yıllık tecrübeye sahip Budapeşte merkezli gayrimenkul yatırım şirketi. Proje geliştirme, yönetim ve stratejik ortaklıklar konusunda uzman.",
+      "keywords": "Aszena Invest, Budapeşte gayrimenkul, Macaristan yatırım, proje geliştirme, proje yönetimi, gayrimenkul Budapeşte, mülk yatırımı Macaristan, otel geliştirme, ticari gayrimenkul, ortak girişimler, Matild Palace, off-market mülkler"
+    },
+    "about": {
+      "title": "Hakkımızda - Aszena Invest | 30+ Yıl Gayrimenkul Deneyimi",
+      "description": "Aszena Invest hakkında bilgi edinin. 30 yılı aşkın deneyime sahip Budapeşte'nin önde gelen gayrimenkul yatırım şirketi. Orta Avrupa ve Akdeniz'de proje geliştirme, yönetim ve stratejik ortaklıklar konusunda uzmanız.",
+      "keywords": "Aszena Invest hakkında, Budapeşte yatırım şirketi, gayrimenkul deneyimi, şirket tarihi, misyon vizyon, Macaristan gayrimenkul uzmanları, mülk geliştirme ekibi, yatırım profesyonelleri"
+    },
+    "projectDevelopment": {
+      "title": "Proje Geliştirme - Aszena Invest | Gayrimenkul Proje Geliştirme Hizmetleri",
+      "description": "Aszena Invest'in proje geliştirme hizmetleri. Doğru lokasyonlarda seçilmiş projeler geliştirerek iş ortaklarına güvenli ve yüksek değerli projeler sunuyoruz.",
+      "keywords": "proje geliştirme, gayrimenkul geliştirme, mülk geliştirme, inşaat projeleri, yatırım projeleri, Budapeşte proje geliştirme"
+    },
+    "projectManagement": {
+      "title": "Proje Yönetimi - Aszena Invest | Profesyonel Proje Yönetimi Hizmetleri",
+      "description": "Aszena Invest'in proje yönetimi hizmetleri. Satın alma sürecinden tamamlanmaya kadar kapsamlı proje yönetimi hizmetleri sunuyoruz.",
+      "keywords": "proje yönetimi, inşaat yönetimi, proje danışmanlığı, yatırım yönetimi, Budapeşte proje yönetimi"
+    },
+    "partnerships": {
+      "title": "Ortak Girişim ve İşbirlikleri - Aszena Invest | Stratejik Ortaklıklar",
+      "description": "Aszena Invest'in ortak girişim ve işbirlikleri. Uluslararası ortaklıklar ve yabancı sermaye işbirlikleri ile yürütülen projelerde proje yönetimi hizmetleri.",
+      "keywords": "ortak girişim, işbirlikleri, stratejik ortaklıklar, uluslararası ortaklıklar, yatırım ortaklıkları"
+    },
+    "completedProjects": {
+      "title": "Tamamlanan Projeler - Aszena Invest | Başarılı Projelerimiz",
+      "description": "Aszena Invest'in tamamlanan projeleri. Bugüne kadar başarıyla tamamladığımız projeler ve başarılarımız.",
+      "keywords": "tamamlanan projeler, başarılı projeler, referans projeler, Matild Palace, Central Palace, proje portföyü"
+    },
+    "agriculture": {
+      "title": "Tarım ve Orman - Aszena Invest | Tarım Yatırımları",
+      "description": "Aszena Invest'in tarım ve orman yatırımları. Sürdürülebilir tarım projeleri ve orman yönetimi hizmetleri.",
+      "keywords": "tarım yatırımları, orman yönetimi, sürdürülebilir tarım, tarım projeleri"
+    },
+    "lifestyle": {
+      "title": "Yaşam Tarzı ve Sosyal Yatırımlar - Aszena Invest | Petrus 2017 Yelken Kulübü",
+      "description": "Aszena Invest'in yaşam tarzı ve sosyal yatırımları. Hırvatistan'daki Petrus 2017 Yelken Kulübü ve Olive Island Marina projeleri.",
+      "keywords": "yaşam tarzı yatırımları, sosyal yatırımlar, yelken kulübü, marina, Hırvatistan yatırımları, Adriyatik"
+    },
+    "contact": {
+      "title": "İletişim - Aszena Invest | Bizimle İletişime Geçin",
+      "description": "Aszena Invest ile iletişime geçin. Budapeşte merkezli gayrimenkul yatırım danışmanlığı için bizimle iletişime geçin.",
+      "keywords": "Aszena Invest iletişim, yatırım danışmanlığı, Budapeşte iletişim, gayrimenkul danışmanlığı"
+    }
   }
 }
