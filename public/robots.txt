@@ -18,7 +18,7 @@ Disallow: /*.json$
 Allow: /favicon.ico
 Allow: /robots.txt
 Allow: /sitemap.xml
-Allow: /aszena.svg
+Allow: /aszena.png
 Allow: /logo-white.svg
 Allow: /*.jpg$
 Allow: /*.png$

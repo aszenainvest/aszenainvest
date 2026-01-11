@@ -5,7 +5,7 @@
     "projectDevelopment": "Proje Geliştirme",
     "projectManagement": "Proje Yönetimi",
     "partnerships": "Ortak Girişim ve İşbirlikleri",
-    "completedProjects": "Tamamlanan Projeler",
+    "completedProjects": "Başlıca Projeler",
     "agriculture": "Tarım ve Orman",
     "lifestyle": "Yaşam Tarzı ve Sosyal Yatırımlar",
     "contact": "İletişim",
@@ -401,7 +401,7 @@
     }
   },
   "completedProjects": {
-    "title": "Tamamlanan Projeler",
+    "title": "Başlıca Projeler",
     "subtitle": "Başarıyla tamamladığımız prestijli projelerimiz",
     "description": "Macaristan'ın kalbinden başlayarak Hırvatistan'ın Adriyatik kıyılarına ve Yunanistan'ın Ege Denizi'ne uzanan coğrafyada hayata geçirdiğimiz prestijli projelerimiz, uluslararası standartlarda sunduğumuz kaliteli hizmetlerin en değerli kanıtıdır. Bu başarılarımızla, yatırım dünyasında ulaştığımız mükemmellik seviyesinin haklı gururunu taşımaktayız.",
     "stats": {
@@ -593,7 +593,7 @@
       "keywords": "ortak girişim, işbirlikleri, stratejik ortaklıklar, uluslararası ortaklıklar, yatırım ortaklıkları"
     },
     "completedProjects": {
-      "title": "Tamamlanan Projeler - Aszena Invest | Başarılı Projelerimiz",
+      "title": "Başlıca Projeler - Aszena Invest | Başarılı Projelerimiz",
       "description": "Aszena Invest'in tamamlanan projeleri. Bugüne kadar başarıyla tamamladığımız projeler ve başarılarımız.",
       "keywords": "tamamlanan projeler, başarılı projeler, referans projeler, Matild Palace, Central Palace, proje portföyü"
     },

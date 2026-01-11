@@ -5,7 +5,7 @@
     "projectDevelopment": "Project Development",
     "projectManagement": "Project Management",
     "partnerships": "Partnerships & Collaborations",
-    "completedProjects": "Completed Projects",
+    "completedProjects": "Key Projects",
     "agriculture": "Agriculture and Forest",
     "lifestyle": "Lifestyle & Social Investments",
     "contact": "Contact",
@@ -411,7 +411,7 @@
     }
   },
   "completedProjects": {
-    "title": "Completed Projects",
+    "title": "Key Projects",
     "subtitle": "Our prestigious projects successfully completed",
     "description": "Our prestigious projects implemented across the geography extending from the heart of Hungary to the Adriatic coasts of Croatia and the Aegean Sea of Greece are the most valuable proof of the quality services we provide at international standards. With these achievements, we carry the justified pride of the level of excellence we have reached in the investment world.",
     "stats": {
@@ -605,7 +605,7 @@
       "keywords": "joint ventures, collaborations, strategic partnerships, international partnerships, investment partnerships"
     },
     "completedProjects": {
-      "title": "Completed Projects - Aszena Invest | Our Successful Projects",
+      "title": "Key Projects - Aszena Invest | Our Successful Projects",
       "description": "Aszena Invest's completed projects. The projects we have successfully completed to date and our achievements.",
       "keywords": "completed projects, successful projects, reference projects, Matild Palace, Central Palace, project portfolio"
     },

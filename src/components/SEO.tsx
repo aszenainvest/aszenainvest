@@ -97,7 +97,7 @@ const SEO: React.FC<SEOProps> = ({
     "url": "https://www.aszenainvest.hu",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.aszenainvest.hu/aszena.svg",
+      "url": "https://www.aszenainvest.hu/aszena.png",
       "width": "250",
       "height": "60"
     },

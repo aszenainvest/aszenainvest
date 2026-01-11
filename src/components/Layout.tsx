@@ -5,7 +5,7 @@ import { useLanguage } from '../hooks/useLanguage';
 import { Button } from './ui/button';
 import { getRoute, getRouteKeyFromPath } from '../utils/routes';
 // Header uses main logo; Footer uses white logo
-const logoAszena = '/aszena.svg';
+const logoAszena = '/aszena.png';
 const logoNoBackground = '/logo-white.svg';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
