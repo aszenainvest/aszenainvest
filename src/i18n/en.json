@@ -1,0 +1,581 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projectDevelopment": "Project Development",
+    "projectManagement": "Project Management",
+    "partnerships": "Partnerships & Collaborations",
+    "completedProjects": "Completed Projects",
+    "agriculture": "Agriculture and Forest",
+    "lifestyle": "Lifestyle & Social Investments",
+    "contact": "Contact",
+    "other": "Other"
+  },
+  "hero": {
+    "title": "Trust - Vision - Growth",
+    "subtitle": "Aszena Invest is an investment company operating since 2010, based on its founders' 30 years of country and regional experience. We develop safe and high-value projects for business partners by developing selected projects in the right locations.",
+    "cta": "Contact Us"
+  },
+  "home": {
+    "budapestBased": "Budapest Based"
+  },
+  "stats": {
+    "title": "Aszena Invest in Numbers",
+    "projectDevelopment": "Project Development",
+    "projectValue": "Deal Secured",
+    "awardWinning": "Award Winning Projects"
+  },
+  "features": {
+    "title": "Why Aszena Invest?",
+    "subtitle": "We offer you the best investment opportunities with our professional approach and expertise.",
+    "location": {
+      "title": "Prestigious Locations",
+      "description": "Selected projects in Budapest's most valuable areas"
+    },
+    "expertise": {
+      "title": "Expert Team",
+      "description": "Professional investment consultancy with 15 years of experience"
+    },
+    "quality": {
+      "title": "Quality Guarantee",
+      "description": "High-quality projects meeting international standards"
+    }
+  },
+  "achievements": {
+    "title": "Our Achievements",
+    "subtitle": "We proceed with the understanding that \"Actions speak louder than words.\"",
+    "description": "As Aszena Invest, we derive our strength not from words, but from the projects we have successfully completed to date. Each project is not just an investment for us; it is also a concrete indicator of our vision of creating trust, transparency and sustainable value.",
+    "description2": "At the point we have reached today, the results we have achieved with our completed projects give us justified pride and form a solid foundation for the steps we will take in the future.",
+    "description": "As Aszena Invest, we draw our strength not from words but from the projects we have successfully completed to date. Each project is not just an investment for us; it is also a concrete indicator of our vision of creating trust, transparency, and sustainable value.",
+    "description2": "At the point we have reached today, the results we have achieved with our completed projects give us justifiable pride and form a solid foundation for the steps we will take in the future.",
+    "stats": {
+      "realEstate": "Secured Deals",
+      "projectDevelopment": "Project Development",
+      "projectManagement": "Project Management"
+    }
+  },
+  "partnership": {
+    "title": "Partnerships & Collaborations",
+    "subtitle": "We achieve greater success with our strong partnerships.",
+    "description": "Aszena Invest views project management as both a strategic and operational responsibility area in projects carried out with international partnerships and foreign capital collaborations."
+  },
+  "luxury": {
+    "title": "Luxury & Comfort",
+    "subtitle": "We develop premium projects that enhance quality of life.",
+    "description": "We develop premium projects that enhance quality of life with modern design understanding and high quality standards."
+  },
+  "lifestyle": {
+    "title": "Lifestyle & Social Investments",
+    "subtitle": "Petrus 2017 Sailing Club - Olive Island Marina",
+    "description": "The Sailing Club in Croatia, which is among Aszena Invest's social investments, is not profit-oriented; it was established to discover, recognize, and promote sports, culture, and the Adriatic spirit.",
+    "description2": "The unique geography of the Adriatic Sea, with its 6,278 km coastline and 1,244 islands, islets, and rocks, offers one of the world's most special sea routes. Our sailing club aims to bring this unique natural heritage together with our investors and business partners, while also representing a lifestyle and prestige-oriented vision.",
+    "stats": {
+      "founded": "Founded",
+      "coastline": "km Coastline",
+      "islands": "Islands & Islets"
+    },
+    "focus": {
+      "items": {
+        "sports": "Sailing Sport",
+        "sportsDesc": "Professional sailing training and maritime culture",
+        "marina": "Olive Island Marina",
+        "marinaDesc": "One of the most prestigious marina locations of the Adriatic",
+        "community": "Social Community",
+        "communityDesc": "A social platform for international investors and partners",
+        "culture": "Cultural Heritage",
+        "cultureDesc": "Mission to discover and promote the Adriatic spirit"
+      }
+    },
+    "projects": {
+      "petrus": "The Sailing Club in Croatia, part of Aszena Invest's social investments, was founded to discover, recognize and promote sports, culture and the spirit of the Adriatic.",
+      "oliveTitle": "Olive Island Marina",
+      "olive": "The Adriatic's unique geography—with a 6,278 km coastline and 1,244 islands, islets and rocks—offers one of the world's most special sea routes.",
+      "oliveMapTitle": "Olive Island Marina - Croatia",
+      "oliveLocation": "Sutomiscica, Croatia"
+    }
+  },
+  "cta": {
+    "title": "Discover Investment Opportunities",
+    "subtitle": "Don't miss investment opportunities in Budapest's most prestigious areas.",
+    "button": "Get Started"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us and discover investment opportunities.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your Message",
+      "submit": "Send",
+      "privacy": "I accept the privacy policy",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours"
+    }
+  },
+  "footer": {
+    "description": "Budapest-based professional real estate investment company",
+    "links": {
+      "about": "About Us",
+      "services": "Our Services",
+      "projects": "Our Projects",
+      "contact": "Contact"
+    },
+    "social": "Social Media",
+    "copyright": "© 2025 Aszena Invest. All rights reserved."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Budapest's most reliable investment partner with 15 years of experience",
+    "companyName": "Aszena Invest",
+    "heroTitle": "About Us",
+    "heroSubtitle": "Investment opportunities in Budapest's most prestigious areas with 15 years of experience",
+    "description1": "Aszena Invest is an investment company headquartered in Budapest, the capital of Hungary, specializing in real estate investment, project development and acquisition processes.",
+    "description2": "Operating since 2010, Aszena Invest has developed selected projects in the right locations in Hungary's most prestigious areas throughout its 15-year professional history.",
+    "description3": "Today, Aszena Invest offers reliable, profitable and sustainable opportunities to business partners and potential investors with ongoing and completed projects in important locations in Hungary, especially Budapest.",
+    "visionMission": "Vision & Mission",
+    "valuesTitle": "Values That Shape Our Future",
+    "vision": {
+      "title": "Vision",
+      "description": "To be an international investment company that brings together capital and business partnerships from Türkiye and the Middle East with investment opportunities in Hungary and Croatia, offering reliable, transparent, and sustainable solutions."
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Aszena Invest's mission is to identify \"off-market\" real estate opportunities and rare values that are not easily accessible to everyone. In every project, our priority is to create lasting value, provide long-term gains, and establish trust and transparency to international standards."
+    },
+    "highlights": {
+      "location": "Budapest Center",
+      "experience": "15+ Years Experience",
+      "since": "Since 2010",
+      "focus": "Real Estate Focused",
+      "sectors": "Multi-Sector"
+    }
+  },
+  "projectDevelopment": {
+    "title": "Project Development",
+    "subtitle": "We develop prestigious projects from scratch",
+    "description": "Aszena Invest carefully plans and implements every stage of the project development process. We manage all processes from proper location selection to project completion with a professional approach.",
+    "overview": {
+      "p1": "For any designated plot or property, we meticulously execute feasibility studies, design processes, and manage relations with local authorities. We specialize in expediting permitting procedures and assessing privileged investment opportunities that can provide project‑specific advantages.",
+      "p2": "Aszena Invest generally does not engage directly in construction; instead, we undertake the sale and investor presentation of the projects we develop. Our projects are primarily positioned in tourism, commercial, mixed‑use, and residential sectors.",
+      "p3": "Our target market includes investors and partnerships in Türkiye and the Middle East, as well as strategic collaborations within the Hungarian domestic market."
+    }
+  },
+  "development": {
+    "title": "Project Development",
+    "subtitle": "Our Core Principle",
+    "description": "For Aszena Invest, the most critical step in the project development process is finding the right opportunity in the right location. Our company stands out with its ability to identify \"off-market\" real estate opportunities that are often not publicly available, or rare values that not everyone can easily access.",
+    "professionalTitle": "Professional Project Development",
+    "professionalDescription": "We manage each project with detailed feasibility studies with our expert team.",
+    "principle": "Our Core Principle",
+    "cards": {
+      "offmarket": "Off-Market Opportunities",
+      "offmarketDesc": "Ability to identify opportunities not publicly available and rare values",
+      "feasibility": "Feasibility Studies",
+      "feasibilityDesc": "Detailed feasibility studies and design processes",
+      "permits": "Permit Processes",
+      "permitsDesc": "Permit processes and relationship management with local authorities",
+      "sales": "Project Sales",
+      "salesDesc": "Sale of projects and professional presentation to investors"
+    }
+  },
+  "projectManagement": {
+    "title": "Project Management",
+    "subtitle": "Professional project management to international standards",
+    "description": "Aszena Invest views project management as both a strategic and operational responsibility area in projects carried out with international partnerships and foreign capital collaborations.",
+    "description2": "Just as in projects we purchase on our own behalf, we manage the process completely from \"day zero\" in our joint ventures as well.",
+    "description3": "We aim to achieve maximum efficiency in budget, timing, and quality control by working with expert local and global solution partners in accordance with international standards in every project.",
+    "strategy": {
+      "title": "Strategic Planning",
+      "planning": "Company Establishment Structure",
+      "planningDesc": "Determining the most suitable company establishment structure for the project",
+      "team": "Partnership Structure",
+      "teamDesc": "Clarification of partnership structure in financial terms",
+      "analysis": "Tax Legislation",
+      "analysisDesc": "Designing company models compliant with international tax legislation"
+    },
+    "execution": {
+      "title": "Operational Implementation",
+      "implementation": "Planning & Zoning",
+      "implementationDesc": "Coordination of planning and zoning works",
+      "quality": "Permits & Licenses",
+      "qualityDesc": "Professional management of permit and license processes",
+      "delivery": "Professional Solutions",
+      "deliveryDesc": "Selection of the right architects and professional solution partners"
+    },
+    "process": {
+      "title": "Project Process",
+      "planning": "Planning Phase",
+      "planningDesc": "Determining project objectives and conducting strategic planning",
+      "design": "Design Phase",
+      "designDesc": "Development of architectural design and technical details",
+      "development": "Development Phase",
+      "developmentDesc": "Initiating project implementation and process management",
+      "testing": "Quality Control",
+      "testingDesc": "Control of quality standards and testing processes",
+      "delivery": "Delivery Phase",
+      "deliveryDesc": "Project completion and delivery to customer"
+    },
+    "references": {
+      "title": "Our References",
+      "centralPalace": {
+        "name": "Central Office Building",
+        "location": "Budapest, Hungary",
+        "description": "Central Palace Office Building – The acquisition process of the Central Palace, one of the most iconic buildings in Budapest city center, was managed.",
+        "type": "A+ Office"
+      },
+      "eskiFabrika": {
+        "name": "Former Ikarus Factory",
+        "location": "Budapest, 16th District, Hungary",
+        "description": "In Budapest's 16th district, the acquisition process of the Former Ikarus Factory area of 82,000 m² was successfully completed by Aszena Invest. The property is currently operated as a City Logistics center with warehouse facilities.",
+        "type": "Industrial"
+      },
+      "maarif": {
+        "name": "Maarif International Schools",
+        "location": "Budapest, Hungary",
+        "description": "The acquisition process of the international Maarif Schools building in the city center of Budapest was successfully managed.",
+        "type": "Education"
+      },
+      "matildPalace": {
+        "name": "Matild Palace",
+        "location": "Budapest, Hungary / 2014-2021",
+        "description": "Full-scale project management from building acquisition to opening as high end luxury hotel and palace",
+        "type": "Hotel & Palace"
+      },
+      "brownBeach": {
+        "name": "Brown Beach",
+        "location": "Chalkida, Greece",
+        "description": "Comprehensive interior renovation and modern design implemented.",
+        "type": "Hotel & Resort"
+      },
+      "sevenVilla": {
+        "name": "7 Villa Project",
+        "location": "Croatia / Trogir",
+        "description": "Comprehensive design and architectural implementation completed from start to finish."
+      },
+      "hyattRegency": {
+        "name": "Hyatt Regency Zadar",
+        "location": "Zadar, Croatia",
+        "description": "Professional interior design and implementation completed.",
+        "type": "Hotel"
+      },
+      "hotelContinental": {
+        "name": "Hotel Continental",
+        "location": "Rijeka, Croatia",
+        "description": "Interior arrangement works for common area renovation were carried out.",
+        "type": "Hotel"
+      },
+      "bluesunHotel": {
+        "name": "Emaar Group Bluesun Hotel",
+        "location": "Adriatic Sea, Croatia",
+        "description": "Luxury interior design and exclusive furniture collection implemented.",
+        "type": "Hotel & Resort"
+      },
+      "brownBeachGreece": {
+        "name": "Brown Beach Crete",
+        "location": "Eretria, Greece",
+        "description": "Luxury interior design and exclusive furniture collection implemented.",
+        "type": "Hotel & Resort"
+      },
+      "eviaHotel": {
+        "name": "Evia Hotel & Suites",
+        "location": "Greece, Marmari",
+        "description": "Interior arrangement and furniture application was carried out.",
+        "type": "Hotel"
+      },
+            "evripidouSuites": {
+              "name": "Evripidou Suites",
+              "location": "Greece, Athens",
+        "description": "Interior arrangement and furniture application was carried out.",
+        "type": "Suites"
+            },
+            "lePrimoreHotel": {
+              "name": "Le Primore Hotel & Spa",
+              "location": "Hungary, Heviz",
+        "description": "Complete architectural design and implementation project for luxury hotel and spa facility was executed from start to finish.",
+        "type": "Hotel & Spa"
+            },
+      "eviaHotel": {
+        "name": "Evia Hotel & Suites",
+        "location": "Greece, Marmari",
+        "description": "Luxury interior design and exclusive furniture collection implemented."
+      },
+      "evripidouSuites": {
+        "name": "Evripidou Suites",
+        "location": "Greece, Athens",
+        "description": "Luxury interior design and exclusive furniture collection implemented."
+      },
+      "papaAirBase": {
+        "name": "Papa Air Base, Hungary for USACE",
+        "location": "Pápa, Hungary 2025/-",
+        "description": "Project management and engineering support services are provided for renovation and construction of additional areas in the military air base project located in the city of Pápa, Hungary.",
+        "type": "Military Base"
+      },
+      "vittaHotel": {
+        "name": "Vitta Hotel Superior Budapest",
+        "location": "Budapest, Hungary",
+        "description": "The acquisition process of 94-room Vitta Hotel and Penny Market in Budapest, along with an additional 8000 m² project development area, has been completed by Aszena Invest.",
+        "type": "Hotel & Commercial"
+      }
+    }
+  },
+  "partnerships": {
+    "title": "Joint Ventures & Collaborations",
+    "subtitle": "We achieve greater success with our strong partnerships",
+    "description": "Aszena Invest views project management as both a strategic and operational responsibility area in projects carried out with international partnerships and foreign capital collaborations.",
+    "description2": "We grow together in Hungary's most valuable locations by establishing business partnerships with investors from Türkiye and the Middle East.",
+    "types": {
+      "title": "Partnership Types",
+      "realEstate": "Real Estate Partnerships",
+      "realEstateDesc": "Joint real estate investments and project development in prestigious locations",
+      "investment": "Investment Partnerships",
+      "investmentDesc": "Large-scale investment projects through combining financial resources",
+      "international": "International Collaborations",
+      "internationalDesc": "International projects through global network and expertise sharing"
+    },
+    "benefits": {
+      "title": "Partnership Benefits",
+      "expertise": "Expertise Sharing",
+      "expertiseDesc": "Sharing international experience and expertise",
+      "resources": "Resource Pooling",
+      "resourcesDesc": "Combining financial and technical resources",
+      "network": "Extensive Network",
+      "networkDesc": "Global business network and connections"
+    },
+    "projects": {
+      "title": "Our Projects",
+      "holidayInn": {
+        "name": "Budapest Hotel Project",
+        "location": "Budapest, Hungary",
+        "type": "Hotel",
+        "description": "A 192-room hotel project with construction permit obtained in the hotel district of Budapest city center. Brand agreement completed."
+      },
+      "nationalPark": {
+        "name": "National Park Resort Project",
+        "location": "Hungary National Park",
+        "type": "Resort",
+        "description": "Construction and sale of a project consisting of 35 apartments and 20 villas is planned within the country's most popular national park located on Hungary's border with Austria."
+      },
+      "militaryArea": {
+        "name": "Life Style Residential Project",
+        "location": "Budapest, Hungary",
+        "type": "Residential",
+        "description": "Large-scale residential project development partnership for approximately 1,300 apartments on 80,000 m² land in the city center is ongoing."
+      },
+      "donobeResort": {
+        "name": "Danube Nature Resort",
+        "location": "Hungary Pest",
+        "type": "Residential and Resort",
+        "description": "Tourism and residential project consisting of 50 wooden houses in a popular tourism region 45 minutes away from Budapest. Development partnership for luxury resort project in harmony with natural environment is ongoing."
+      },
+      "roofTopProject": {
+        "name": "Roof Top Project",
+        "location": "Budapest, Hungary",
+        "type": "Residential",
+        "description": "Rooftop transformation project in the city center. Luxury 8-unit penthouse project."
+      },
+      "commercialOffice": {
+        "name": "Commercial Real Estate Office",
+        "location": "Istanbul, Türkiye",
+        "type": "Office",
+        "description": "Our office project in Ataşehir is successfully operated with corporate tenants."
+      },
+      "croatiaProject": {
+        "name": "Croatia",
+        "location": "Zadar, Croatia",
+        "type": "Under Negotiations",
+        "description": "Project development negotiations for Croatia Zadar location are ongoing."
+      },
+      "austriaProject": {
+        "name": "Austria",
+        "location": "Salzburg, Austria",
+        "type": "Under Negotiations",
+        "description": "Project development negotiations for Austria Salzburg location are ongoing."
+      }
+    },
+    "stats": {
+      "partners": "Partners",
+      "countries": "Countries",
+      "investment": "Total Investment"
+    },
+    "cta": {
+      "title": "Discover Partnership Opportunities",
+      "description": "Don't miss growth opportunities with our strong partnerships.",
+      "button": "Contact Us"
+    }
+  },
+  "completedProjects": {
+    "title": "Completed Projects",
+    "subtitle": "Our prestigious projects successfully completed",
+    "description": "Our prestigious projects implemented across the geography extending from the heart of Hungary to the Adriatic coasts of Croatia and the Aegean Sea of Greece are the most valuable proof of the quality services we provide at international standards. With these achievements, we carry the justified pride of the level of excellence we have reached in the investment world.",
+    "stats": {
+      "completed": "Completed Projects",
+      "ongoing": "Ongoing Projects",
+      "satisfaction": "Customer Satisfaction",
+      "value": "Total Project Value"
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "quality": "Quality Standards",
+      "qualityDesc": "We exceed international quality standards in all our projects",
+      "awards": {
+        "title": "Awards",
+        "timeline": [
+          {
+            "year": "2021",
+            "awards": "Gold Key Awards, World Travel Awards (Hungary's Leading Hotel)"
+          },
+          {
+            "year": "2021",
+            "awards": "Best Hotel Suite Interior—Maria Klotild Royal Suite"
+          },
+          {
+            "year": "2021",
+            "awards": "Best Hotel Bathroom Interior"
+          },
+          {
+            "year": "2022", 
+            "awards": "Construction Excellence Award (Építőipari Nívódíj), Klasszis TopDesign's Capital City Accommodation, Guest Room and Café"
+          },
+          {
+            "year": "2022",
+            "awards": "Best Hotel Conference Facilities Interior"
+          },
+          {
+            "year": "2022",
+            "awards": "Best Hotel Restaurant Interior 'Spago by Wolfgang Puck Budapest'"
+          },
+          {
+            "year": "2023",
+            "awards": "Best Hotel Lobby Interior"
+          },
+          {
+            "year": "2023",
+            "awards": "Best Hotel Bar Interior—The Duchess"
+          }
+        ]
+      }
+    },
+    "gallery": {
+      "title": "MATILD PALACE",
+      "luxuryInterior": "Luxury Interior",
+      "awardWinningDesign": "Award-Winning Design",
+      "prestigiousSpace": "Prestigious Space"
+    },
+    "showcase": {
+      "title": "Featured Projects",
+      "completed": "Completed",
+      "projects": {
+        "project1": {
+          "title": "Luxury Residential Project - Budapest Center",
+          "location": "Budapest, 5th District",
+          "type": "Residential",
+          "description": "Prestigious residential project combining modern design and luxury comfort with 50 apartments"
+        },
+        "project2": {
+          "title": "Commercial Office Complex",
+          "location": "Budapest, 13th District",
+          "type": "Commercial",
+          "description": "Modern office spaces and commercial units for international companies"
+        },
+        "project3": {
+          "title": "Mixed-Use Development",
+          "location": "Budapest, 11th District",
+          "type": "Mixed-Use",
+          "description": "Comprehensive mixed-use project including residential, commercial, and social areas"
+        }
+      }
+    },
+    "cta": {
+      "title": "Explore Our Projects",
+      "description": "Get detailed information about our successfully completed projects.",
+      "button": "View Details"
+    }
+  },
+  "agriculture": {
+    "title": "Agriculture and Forest Investments",
+    "subtitle": "Ecological Farming of the Future",
+    "description": "In light of global developments in recent years, the significance of future agriculture has been emphasized, with ecological and organic farming taking center stage. In Hungary, we conduct ecological farming operations including alfalfa and wheat production across 4.5 million square meters of agricultural land that we co-own and is under our proprietary rights. Through the implementation of modern technologies and sustainable agricultural practices, we simultaneously protect the environment while producing high-quality organic products. Additionally, on our 150,000 m² forest property, we engage in professional forest management and tree cultivation activities. By employing environmentally conscious forest management practices, we maintain sustainable forestry operations and produce quality timber while preserving the natural ecosystem. Within this domain, we generate economic value and promote biodiversity through the application of modern forestry techniques that respect nature's delicate balance. Guided by sustainable forest management principles, we continue our endeavors with the objective of bequeathing a greener and healthier environment to future generations.",
+    "stats": {
+      "title": "Our Agriculture and Forest Lands",
+      "area": "4.5 Million m²",
+      "areaDesc": "Total Agricultural Area",
+      "forestArea": "150,000 m²",
+      "forestAreaDesc": "Forest Area",
+      "location": "Hungary",
+      "locationDesc": "Strategic Location"
+    },
+    "focus": {
+      "title": "Our Focus Areas",
+      "technology": "Modern Agricultural Technologies",
+      "technologyDesc": "Productivity increase and sustainable production with latest technologies",
+      "sustainability": "Sustainable Agriculture",
+      "sustainabilityDesc": "Environmentally friendly agricultural practices and natural resource conservation",
+      "export": "Export-Oriented",
+      "exportDesc": "Quality product production for international markets"
+    },
+    "agricultureForest": {
+      "title": "Agriculture and Forest",
+      "agriculture": {
+        "title": "Agricultural Activities",
+        "description": "On our 4.5 million square meters of land, we produce ecological agriculture, alfalfa, and wheat. We obtain high-quality organic products with modern technologies and sustainable agricultural practices.",
+        "features": [
+          "Ecological agricultural practices",
+          "Organic alfalfa production",
+          "Quality wheat cultivation",
+          "Sustainable farming methods"
+        ]
+      },
+      "forest": {
+        "title": "Forest Management",
+        "description": "On our own 150,000 m² forest area, we conduct professional forest management and tree cultivation activities. Through environmentally friendly forest management practices, we carry out sustainable forestry and quality tree production while protecting the natural ecosystem.",
+        "features": [
+          "Environmentally friendly forest management",
+          "Sustainable forestry",
+          "Natural ecosystem protection",
+          "Biodiversity conservation"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Discover Agricultural Investment Opportunities",
+      "description": "Join our sustainable agriculture projects and invest in the future.",
+      "button": "Explore Opportunities"
+    }
+  },
+  "common": {
+    "years": "Years",
+    "projects": "Projects",
+    "locations": "Locations",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "language": "Language"
+  },
+  "footer": {
+    "description": "Professional real estate investment company based in Budapest",
+    "links": {
+      "about": "About Us",
+      "services": "Our Services",
+      "projects": "Our Projects",
+      "contact": "Contact"
+    },
+    "contact": "Contact Us",
+    "contactDesc": "Get in touch with us",
+    "contact": "Contact Us",
+    "contactDesc": "Get in touch with us",
+    "social": "Social Media",
+    "copyright": "All rights reserved © 2025 Aszena Invest",
+    "trustVisionGrowth": "Trust - Vision - Growth",
+    "slogan": "Actions speak louder than words",
+    "sloganTranslation": "The mirror is the work, not the words"
+  },
+  "toast": {
+    "messageSent": "Message Sent"
+  }
+}

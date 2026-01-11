@@ -1,0 +1,371 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RTL Support for Arabic */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Aszena Invest Design System - Premium Investment Company 
+Corporate, trustworthy, transparent, international appeal
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Brand Colors - Aszena Invest Palette - STABLE */
+    --background: 0 0% 100%; /* Pure white */
+    --foreground: 213 24% 24%; /* #0B1F3B variant - deep blue */
+
+    --card: 0 0% 100%;
+    --card-foreground: 213 24% 24%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 24% 24%;
+
+    /* Primary - Updated to rgb(36, 36, 138) -> hsl(240 59% 34%) */
+    --primary: 240 59% 34%; /* #24248A */
+    --primary-foreground: 0 0% 100%;
+    --primary-deep: 240 65% 28%;
+    --primary-light: 240 65% 45%;
+
+    /* Secondary - Professional depth */
+    --secondary: 215 20% 65%; /* #94A3B8 - professional gray */
+    --secondary-foreground: 213 24% 24%;
+
+    /* Accent - Gold highlight */
+    --accent: 40 35% 57%; /* #C5A059 - gold accent */
+    --accent-foreground: 213 24% 24%;
+
+    /* Muted tones */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 240 59% 34%;
+
+    --radius: 0.5rem;
+
+    /* Gradients - Premium Investment Appeal */
+    --gradient-primary: linear-gradient(135deg, hsl(240 59% 34%), hsl(240 65% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(213 85% 15%), hsl(225 81% 62%));
+    --gradient-accent: linear-gradient(90deg, hsl(40 35% 57%), hsl(45 40% 65%));
+    --gradient-premium: linear-gradient(135deg, hsl(225 81% 62%), hsl(40 35% 57%));
+    
+    /* Shadows - Professional depth */
+    --shadow-soft: 0 4px 20px -4px hsl(225 81% 62% / 0.15);
+    --shadow-card: 0 8px 30px -8px hsl(213 24% 24% / 0.1);
+    --shadow-elevated: 0 20px 40px -10px hsl(213 24% 24% / 0.15);
+    --shadow-glow: 0 0 20px hsl(225 81% 62% / 0.3);
+
+    /* Typography weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode - Corporate night theme */
+    --background: 213 85% 8%; /* Very dark blue */
+    --foreground: 248 250 252;
+
+    --card: 213 80% 12%;
+    --card-foreground: 248 250 252;
+
+    --popover: 213 80% 12%;
+    --popover-foreground: 248 250 252;
+
+    --primary: 222 95% 70%; /* Bright blue for dark mode */
+    --primary-foreground: 213 85% 8%;
+    --primary-deep: 225 81% 62%;
+    --primary-light: 222 95% 80%;
+
+    --secondary: 213 20% 25%;
+    --secondary-foreground: 248 250 252;
+
+    --accent: 40 50% 70%; /* Brighter gold for dark mode */
+    --accent-foreground: 213 85% 8%;
+
+    --muted: 213 20% 20%;
+    --muted-foreground: 215 16% 65%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 248 250 252;
+
+    --border: 213 20% 25%;
+    --input: 213 20% 25%;
+    --ring: 222 95% 70%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(213 85% 15%), hsl(222 95% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(213 90% 5%), hsl(213 85% 15%));
+    --gradient-accent: linear-gradient(90deg, hsl(40 50% 70%), hsl(45 55% 75%));
+    --gradient-premium: linear-gradient(135deg, hsl(222 95% 70%), hsl(40 50% 70%));
+
+    /* Dark mode shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(213 90% 5% / 0.3);
+    --shadow-card: 0 8px 30px -8px hsl(213 90% 5% / 0.4);
+    --shadow-elevated: 0 20px 40px -10px hsl(213 90% 5% / 0.5);
+    --shadow-glow: 0 0 20px hsl(222 95% 70% / 0.3);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground font-normal;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+}
+
+/* Custom Component Classes */
+@layer components {
+  /* Hero Section Styles */
+  .hero-section {
+    @apply bg-gradient-to-br from-primary-deep via-primary to-primary-light min-h-[70vh] flex items-center;
+    background: var(--gradient-hero);
+  }
+  
+  .hero-content {
+    @apply text-white relative z-10;
+  }
+  
+  .hero-title {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight;
+    font-weight: var(--font-bold);
+  }
+  
+  .hero-subtitle {
+    @apply text-lg md:text-xl opacity-90 mb-8 max-w-2xl;
+    font-weight: var(--font-normal);
+  }
+
+  /* Card Components */
+  .investment-card {
+    @apply bg-card border border-border rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300;
+    box-shadow: var(--shadow-card);
+  }
+  
+  .investment-card:hover {
+    box-shadow: var(--shadow-elevated);
+    transform: translateY(-4px);
+  }
+
+  /* Button Variants */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold;
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-soft);
+    font-weight: var(--font-semibold);
+    color: white !important;
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-elevated);
+    color: white !important;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-accent-foreground px-6 py-3 rounded-lg font-medium;
+    background: var(--gradient-accent);
+    font-weight: var(--font-medium);
+    color: white !important;
+  }
+
+  .btn-accent:hover {
+    color: white !important;
+  }
+
+  /* Content Sections */
+  .content-section {
+    @apply py-12 md:py-16;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 text-foreground;
+    font-weight: var(--font-bold);
+  }
+  
+  .section-subtitle {
+    @apply text-lg md:text-xl text-muted-foreground mb-8;
+    font-weight: var(--font-normal);
+  }
+
+  /* Statistics/Trust Elements */
+  .trust-stat {
+    @apply text-center p-6 bg-card rounded-lg;
+    box-shadow: var(--shadow-card);
+  }
+  
+  .trust-number {
+    @apply text-3xl md:text-4xl font-bold text-primary mb-2;
+    font-weight: var(--font-bold);
+  }
+  
+  .trust-label {
+    @apply text-sm md:text-base text-muted-foreground;
+    font-weight: var(--font-medium);
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply text-foreground hover:text-primary transition-colors duration-200 font-medium;
+    font-weight: var(--font-medium);
+  }
+  
+  .nav-link-active {
+    @apply text-primary font-semibold;
+    font-weight: var(--font-semibold);
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-premium {
+    background: var(--gradient-premium);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .bg-gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .bg-gradient-premium {
+    background: var(--gradient-premium);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Animation Enhancements */
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Hide scrollbar utility */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Navbar responsive adjustments */
+  @media (max-width: 1024px) {
+    .nav-link {
+      font-size: 0.875rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+
+
+
+}
