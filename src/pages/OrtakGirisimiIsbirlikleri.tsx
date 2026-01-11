@@ -3,10 +3,9 @@ import { MapPin, Clock } from 'lucide-react';
 import SEO from '../components/SEO';
 import partnershipImage from '../assets/partnership.jpg';
 import holidayImage from '../assets/holiday.png';
-import areaImage from '../assets/area.png';
 import donobeImage from '../assets/donobe.png';
-import roofImage from '../assets/roof.png';
 import istabulImage from '../assets/istanbul.jpeg';
+import investmentBuildingImage from '../assets/investment-building.jpg';
 
 const OrtakGirisimiIsbirlikleri = () => {
   const { t } = useLanguage();
@@ -32,7 +31,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.militaryArea.location'),
       type: t('partnerships.projects.militaryArea.type'),
       description: t('partnerships.projects.militaryArea.description'),
-      image: areaImage
+      image: investmentBuildingImage
     },
     {
       title: t('partnerships.projects.donobeResort.name'),
@@ -46,7 +45,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.roofTopProject.location'),
       type: t('partnerships.projects.roofTopProject.type'),
       description: t('partnerships.projects.roofTopProject.description'),
-      image: roofImage
+      image: partnershipImage
     },
     {
       title: t('partnerships.projects.commercialOffice.name'),
@@ -87,7 +86,7 @@ const OrtakGirisimiIsbirlikleri = () => {
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${areaImage})` }}
+          style={{ backgroundImage: `url(${investmentBuildingImage})` }}
         >
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
