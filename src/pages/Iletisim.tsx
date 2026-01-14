@@ -95,12 +95,7 @@ const Iletisim = () => {
 
   return (
     <div>
-      <SEO 
-        title="Contact Us - Aszena Invest | Get in Touch with Our Team"
-        description="Contact Aszena Invest for real estate investment opportunities in Budapest and Central Europe. Email: contact@aszenainvest.hu. Located in Budapest, Hungary. Available in Turkish, English, and Arabic."
-        keywords="contact Aszena Invest, Budapest office, real estate inquiries, investment consultation, contact information, email contact, Hungary office, get in touch, business inquiries"
-        url="https://www.aszenainvest.hu/iletisim"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

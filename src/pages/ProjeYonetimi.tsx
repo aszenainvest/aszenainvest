@@ -41,12 +41,7 @@ const ProjeYonetimi = () => {
 
   return (
     <div>
-      <SEO 
-        title="Project Management - Aszena Invest | Full-Scale Development Services"
-        description="Professional project management services from acquisition to completion. Matild Palace Budapest, NATO Pápa Air Base, and 300M+ EUR projects successfully delivered across Central Europe."
-        keywords="project management Budapest, real estate project management, Matild Palace, hotel project management, construction management Hungary, development services, property management, NATO projects"
-        url="https://www.aszenainvest.hu/proje-yonetimi"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

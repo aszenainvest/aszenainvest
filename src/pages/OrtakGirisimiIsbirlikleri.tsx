@@ -6,6 +6,8 @@ import holidayImage from '../assets/holiday.png';
 import donobeImage from '../assets/donobe.png';
 import istabulImage from '../assets/istanbul.jpeg';
 import investmentBuildingImage from '../assets/investment-building.jpg';
+import luxuryImage from '../assets/luxury-interior.jpg';
+import skylineImage from '../assets/budapest-skyline.jpg';
 
 const OrtakGirisimiIsbirlikleri = () => {
   const { t } = useLanguage();
@@ -31,7 +33,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.militaryArea.location'),
       type: t('partnerships.projects.militaryArea.type'),
       description: t('partnerships.projects.militaryArea.description'),
-      image: investmentBuildingImage
+      image: luxuryImage
     },
     {
       title: t('partnerships.projects.donobeResort.name'),
@@ -45,7 +47,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.roofTopProject.location'),
       type: t('partnerships.projects.roofTopProject.type'),
       description: t('partnerships.projects.roofTopProject.description'),
-      image: partnershipImage
+      image: skylineImage
     },
     {
       title: t('partnerships.projects.commercialOffice.name'),
@@ -75,18 +77,13 @@ const OrtakGirisimiIsbirlikleri = () => {
 
   return (
     <div>
-      <SEO 
-        title="Joint Ventures & Partnerships - Aszena Invest | Strategic Investment Opportunities"
-        description="Strategic partnerships and joint venture opportunities in Hungary and Central Europe. Holiday Inn, Danube Nature Resort, and premium development projects. Partner with Aszena Invest for success."
-        keywords="joint ventures Hungary, real estate partnerships, investment partnerships, strategic alliances, co-development, Holiday Inn Budapest, Danube resort, partnership opportunities, investor relations"
-        url="https://www.aszenainvest.hu/ortak-girisim-isbirlikleri"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${investmentBuildingImage})` }}
+          style={{ backgroundImage: `url(${partnershipImage})` }}
         >
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

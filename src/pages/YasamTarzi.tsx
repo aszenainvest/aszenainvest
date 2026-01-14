@@ -38,12 +38,7 @@ const YasamTarzi = () => {
 
   return (
     <div>
-      <SEO 
-        title="Lifestyle & Social Investments - Aszena Invest | Petrus 2017 Sailing Club"
-        description="Premium lifestyle investments in Croatia. Petrus 2017 Sailing Club, Olive Island Marina, and exclusive social investment opportunities. 1,244 islands, 6,278 km coastline. Founded 2017."
-        keywords="lifestyle investments, Petrus 2017, sailing club Croatia, marina investment, Olive Island, social investments, luxury lifestyle, Croatian coast, sailing community, premium marina"
-        url="https://www.aszenainvest.hu/yasam-tarzi"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

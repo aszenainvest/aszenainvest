@@ -35,12 +35,7 @@ const ProjeGelistirme = () => {
 
   return (
     <div>
-      <SEO 
-        title="Project Development - Aszena Invest | Off-Market Real Estate Opportunities"
-        description="Comprehensive project development services in Hungary and Central Europe. Off-market property sourcing, feasibility studies, permit acceleration, and investor presentation. 200,000+ m² developed."
-        keywords="project development Hungary, off-market properties, real estate development Budapest, feasibility studies, property permits, investment opportunities, land development, commercial development"
-        url="https://www.aszenainvest.hu/proje-gelistirme"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

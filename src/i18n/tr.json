@@ -46,8 +46,6 @@
     "subtitle": "\"Âyinesi iştir kişinin, söze bakılmaz\" anlayışıyla yol alıyoruz.",
     "description": "Aszena Invest olarak gücümüzü sözlerden değil, bugüne kadar başarıyla tamamladığımız projelerden alıyoruz. Her proje, bizim için yalnızca bir yatırım değil; aynı zamanda güven, şeffaflık ve sürdürülebilir değer yaratma vizyonumuzun somut bir göstergesidir.",
     "description2": "Bugün geldiğimiz noktada, tamamlanan projelerimizle elde ettiğimiz sonuçlar, bize haklı bir gurur yaşatmakta ve gelecekte atacağımız adımlar için sağlam bir temel oluşturmaktadır.",
-    "description": "Aszena Invest olarak gücümüzü sözlerden değil, bugüne kadar başarıyla tamamladığımız projelerden alıyoruz. Her proje, bizim için yalnızca bir yatırım değil; aynı zamanda güven, şeffaflık ve sürdürülebilir değer yaratma vizyonumuzun somut bir göstergesidir.",
-    "description2": "Bugün geldiğimiz noktada, tamamlanan projelerimizle elde ettiğimiz sonuçlar, bize haklı bir gurur yaşatmakta ve gelecekte atacağımız adımlar için sağlam bir temel oluşturmaktadır.",
     "stats": {
       "realEstate": "Gayrimenkul Tamamlanan Sözleşme",
       "projectDevelopment": "Proje Geliştirme",
@@ -118,17 +116,6 @@
       "email": "E-posta",
       "hours": "Çalışma Saatleri"
     }
-  },
-  "footer": {
-    "description": "Budapeşte merkezli profesyonel gayrimenkul yatırım şirketi",
-    "links": {
-      "about": "Hakkımızda",
-      "services": "Hizmetlerimiz",
-      "projects": "Projelerimiz",
-      "contact": "İletişim"
-    },
-    "social": "Sosyal Medya",
-    "copyright": "© 2025 Aszena Invest. Tüm hakları saklıdır."
   },
   "about": {
     "title": "Hakkımızda",
@@ -278,30 +265,30 @@
         "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
         "type": "Otel & Tatil Köyü"
       },
-        "brownBeachGreece": {
-          "name": "Isla Brown Resort Chania",
-          "location": "Eretria, Yunanistan",
-          "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
-          "type": "Otel & Tatil Köyü"
-        },
-        "eviaHotel": {
-          "name": "Evia Hotel & Suites",
-          "location": "Yunanistan, Marmari",
-          "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
-          "type": "Otel"
-        },
-            "evripidouSuites": {
-              "name": "Evripidou Suites",
-              "location": "Yunanistan, Atina",
-              "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
-              "type": "Süitler"
-            },
-            "lePrimoreHotel": {
-              "name": "Le Primore Otel & Spa",
-              "location": "Macaristan, Heviz",
-              "description": "Komple iç mimari tasarımı ve uygulaması projesi ile lüks otel ve spa tesisi baştan sona hayata geçirilmiştir.",
-              "type": "Otel & Spa"
-            },
+      "brownBeachGreece": {
+        "name": "Isla Brown Resort Chania",
+        "location": "Eretria, Yunanistan",
+        "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
+        "type": "Otel & Tatil Köyü"
+      },
+      "eviaHotel": {
+        "name": "Evia Hotel & Suites",
+        "location": "Yunanistan, Marmari",
+        "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
+        "type": "Otel"
+      },
+      "evripidouSuites": {
+        "name": "Evripidou Suites",
+        "location": "Yunanistan, Atina",
+        "description": "İç mekan düzenlemesi ve mobilya uygulaması gerçekleştirilmiştir.",
+        "type": "Süitler"
+      },
+      "lePrimoreHotel": {
+        "name": "Le Primore Otel & Spa",
+        "location": "Macaristan, Heviz",
+        "description": "Komple iç mimari tasarımı ve uygulaması projesi ile lüks otel ve spa tesisi baştan sona hayata geçirilmiştir.",
+        "type": "Otel & Spa"
+      },
       "papaAirBase": {
         "name": "Papa Air Base, Hungary for USACE",
         "location": "Pápa, Macaristan 2025/-",
@@ -401,7 +388,7 @@
     }
   },
   "completedProjects": {
-    "title": "Başlıca Projeler",
+    "title": "Tamamlanan Başlıca Projeler",
     "subtitle": "Başarıyla tamamladığımız prestijli projelerimiz",
     "description": "Macaristan'ın kalbinden başlayarak Hırvatistan'ın Adriyatik kıyılarına ve Yunanistan'ın Ege Denizi'ne uzanan coğrafyada hayata geçirdiğimiz prestijli projelerimiz, uluslararası standartlarda sunduğumuz kaliteli hizmetlerin en değerli kanıtıdır. Bu başarılarımızla, yatırım dünyasında ulaştığımız mükemmellik seviyesinin haklı gururunu taşımaktayız.",
     "stats": {
@@ -430,7 +417,7 @@
             "awards": "Best Hotel Bathroom Interior"
           },
           {
-            "year": "2022", 
+            "year": "2022",
             "awards": "Construction Excellence Award (Építőipari Nívódíj), Klasszis TopDesign's Capital City Accommodation, Guest Room and Café"
           },
           {
@@ -491,12 +478,12 @@
   "agriculture": {
     "title": "Tarım ve Orman Yatırımları",
     "subtitle": "Geleceğin Ekolojik Tarımı",
-    "description": "Son yıllarda dünyadaki gelişmeler dikkate alınarak geleceğin tarımının önemi vurgulanarak ekolojik tarım ve organik tarım ön plana çıkmaktadır. Macaristan'da bulunan ortağı olduğumuz ve kendi mülkiyetimizde olan 4.5 milyon metrekare tarım arazisinde ekolojik tarım ile yonca ve buğday üretimi yapılmaktadır. Modern teknolojiler ve sürdürülebilir tarım uygulamaları ile hem çevreyi koruyor hem de yüksek kaliteli organik ürünler elde ediyoruz. Aynı zamanda kendimize ait 150.000 m² orman alanımızda profesyonel orman işletmeciliği ve ağaç yetiştiriciliği faaliyetleri gerçekleştirmekteyiz. Çevre dostu orman yönetimi uygulamaları ile doğal ekosistemi koruyarak sürdürülebilir ormancılık ve kaliteli ağaç üretimi yapmaktayız. Bu alanımızda, doğanın dengesini bozmadan modern ormancılık teknikleri kullanarak hem ekonomik değer yaratıyor hem de biyolojik çeşitliliği destekliyoruz. Sürdürülebilir orman yönetimi prensipleri doğrultusunda, gelecek nesillere daha yeşil ve sağlıklı bir çevre bırakma hedefiyle çalışmalarımızı sürdürüyoruz.",
+    "description": "Son yıllarda dünyadaki gelişmeler dikkate alınarak geleceğin tarımının önemi vurgulanarak ekolojik tarım ve organik tarım ön plana çıkmaktadır. Macaristan'da bulunan ortağı olduğumuz ve kendi mülkiyetimizde olan 4.5 milyon metrekare tarım arazisinde ekolojik tarım ile yonca ve buğday üretimi yapılmaktadır. Modern teknolojiler ve sürdürülebilir tarım uygulamaları ile hem çevreyi koruyor hem de yüksek kaliteli organik ürünler elde ediyoruz. Aynı zamanda kendimize ait 200.000 m² orman alanımızda profesyonel orman işletmeciliği ve ağaç yetiştiriciliği faaliyetleri gerçekleştirmekteyiz. Çevre dostu orman yönetimi uygulamaları ile doğal ekosistemi koruyarak sürdürülebilir ormancılık ve kaliteli ağaç üretimi yapmaktayız. Bu alanımızda, doğanın dengesini bozmadan modern ormancılık teknikleri kullanarak hem ekonomik değer yaratıyor hem de biyolojik çeşitliliği destekliyoruz. Sürdürülebilir orman yönetimi prensipleri doğrultusunda, gelecek nesillere daha yeşil ve sağlıklı bir çevre bırakma hedefiyle çalışmalarımızı sürdürüyoruz.",
     "stats": {
       "title": "Tarım ve Orman Arazilerimiz",
       "area": "4.5 Milyon m²",
       "areaDesc": "Toplam Tarım Alanı",
-      "forestArea": "150.000 m²",
+      "forestArea": "200.000 m²",
       "forestAreaDesc": "Orman Alanı",
       "location": "Macaristan",
       "locationDesc": "Stratejik Konum"
@@ -517,14 +504,14 @@
         "description": "4.5 milyon metrekare arazimizde ekolojik tarım, yonca ve buğday üretimi yapılmaktadır. Modern teknolojiler ve sürdürülebilir tarım uygulamaları ile yüksek kaliteli organik ürünler elde ediyoruz.",
         "features": [
           "Ekolojik tarım uygulamaları",
-          "Organik yonca üretimi", 
+          "Organik yonca üretimi",
           "Kaliteli buğday yetiştiriciliği",
           "Sürdürülebilir tarım yöntemleri"
         ]
       },
       "forest": {
         "title": "Orman Yönetimi",
-        "description": "Kendimize ait 150.000 m² orman alanımızda profesyonel orman işletmeciliği ve ağaç yetiştiriciliği faaliyetleri gerçekleştirmekteyiz. Çevre dostu orman yönetimi uygulamaları ile doğal ekosistemi koruyarak sürdürülebilir ormancılık ve kaliteli ağaç üretimi yapmaktayız.",
+        "description": "Kendimize ait 200.000 m² orman alanımızda profesyonel orman işletmeciliği ve ağaç yetiştiriciliği faaliyetleri gerçekleştirmekteyiz. Çevre dostu orman yönetimi uygulamaları ile doğal ekosistemi koruyarak sürdürülebilir ormancılık ve kaliteli ağaç üretimi yapmaktayız.",
         "features": [
           "Çevre dostu orman yönetimi",
           "Sürdürülebilir ormancılık",

@@ -52,12 +52,7 @@ const Tarim = () => {
 
   return (
     <div>
-      <SEO 
-        title="Agriculture & Forest Investments - Aszena Invest | Sustainable Farming"
-        description="4.5 million m² ecological agriculture and 150,000 m² forest management in Hungary. Sustainable farming with alfalfa and wheat production. Modern forestry and organic agriculture investments."
-        keywords="agriculture investment Hungary, ecological farming, organic agriculture, forest management, sustainable farming, alfalfa production, wheat farming, forestry investment, agricultural land Hungary"
-        url="https://www.aszenainvest.hu/tarim"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

@@ -157,12 +157,7 @@ const TamamlananProjeler = () => {
 
   return (
     <div>
-      <SEO 
-        title="Completed Projects - Aszena Invest | Matild Palace & Premium Developments"
-        description="Explore our portfolio of successfully completed projects across Hungary, Croatia, and Greece. Matild Palace Budapest, Central Palace Offices, luxury hotels, and 300M+ EUR developments delivered."
-        keywords="completed projects, Matild Palace Budapest, Central Palace, hotel projects, luxury developments, real estate portfolio, Croatia hotels, Greece resorts, project references, construction achievements"
-        url="https://www.aszenainvest.hu/tamamlanan-projeler"
-      />
+      <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
         {/* Background Image */}

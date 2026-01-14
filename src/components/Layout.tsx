@@ -6,7 +6,6 @@ import { Button } from './ui/button';
 import { getRoute, getRouteKeyFromPath } from '../utils/routes';
 // Header uses main logo; Footer uses white logo
 const logoAszena = '/aszena.png';
-const logoNoBackground = '/logo-white.svg';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -91,7 +90,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="w-full px-6 sm:px-8 lg:px-24">
           <div className="flex justify-between items-center h-16 gap-4">
             <Link to={getRoute(language, 'home')} className="flex items-center">
-              <img src={logoAszena} alt="Aszena Invest Logo" className="w-16 h-16 object-contain" loading="lazy" />
+              <img src={logoAszena} alt="Aszena Invest Logo" className="w-20 h-20 md:w-24 md:h-24 object-contain" loading="lazy" />
             </Link>
 
             {/* Desktop Navigation - with dropdown */}
@@ -100,17 +99,16 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <Link
                   key={item.key}
                   to={item.href}
-                  className={`${
-                    isActiveRoute(item.href)
-                      ? 'nav-link-active bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent font-semibold'
-                      : 'nav-link hover:text-primary'
-                  } transition-all duration-200 text-sm lg:text-base px-2 py-1 rounded hover:bg-muted/50 truncate max-w-[100px] lg:max-w-none`}
+                  className={`${isActiveRoute(item.href)
+                    ? 'nav-link-active bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent font-semibold'
+                    : 'nav-link hover:text-primary'
+                    } transition-all duration-200 text-sm lg:text-base px-2 py-1 rounded hover:bg-muted/50 truncate max-w-[100px] lg:max-w-none`}
                   title={item.name}
                 >
                   {item.name}
                 </Link>
               ))}
-              
+
               {/* Dropdown Menu - Beautiful */}
               <div className="relative inline-block dropdown-container">
                 <button
@@ -120,16 +118,15 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     console.log('Dropdown items:', dropdownItems);
                     setIsDropdownOpen(!isDropdownOpen);
                   }}
-                  className={`flex items-center space-x-1 text-sm lg:text-base px-3 py-1.5 rounded-lg transition-all duration-200 ${
-                    isDropdownOpen 
-                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg' 
-                      : 'bg-muted/50 text-foreground hover:bg-muted hover:text-primary'
-                  }`}
+                  className={`flex items-center space-x-1 text-sm lg:text-base px-3 py-1.5 rounded-lg transition-all duration-200 ${isDropdownOpen
+                    ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg'
+                    : 'bg-muted/50 text-foreground hover:bg-muted hover:text-primary'
+                    }`}
                 >
                   <span>{t('nav.other')}</span>
                   <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
-                
+
                 {isDropdownOpen && (
                   <div className="absolute top-full left-0 mt-2 w-72 bg-white/95 backdrop-blur-sm border-2 border-primary/20 rounded-xl shadow-2xl z-[99999] overflow-hidden">
                     <div className="p-2">
@@ -137,11 +134,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         <Link
                           key={item.key}
                           to={item.href}
-                          className={`flex items-center px-4 py-3 text-sm transition-all duration-200 rounded-lg mx-1 mb-1 ${
-                            isActiveRoute(item.href)
-                              ? 'bg-gradient-to-r from-primary/10 to-primary/5 text-primary font-medium shadow-sm'
-                              : 'text-gray-700 hover:bg-gradient-to-r hover:from-gray-50 hover:to-gray-100 hover:text-primary'
-                          }`}
+                          className={`flex items-center px-4 py-3 text-sm transition-all duration-200 rounded-lg mx-1 mb-1 ${isActiveRoute(item.href)
+                            ? 'bg-gradient-to-r from-primary/10 to-primary/5 text-primary font-medium shadow-sm'
+                            : 'text-gray-700 hover:bg-gradient-to-r hover:from-gray-50 hover:to-gray-100 hover:text-primary'
+                            }`}
                           onClick={() => {
                             console.log('Dropdown link clicked:', item.href, item.name);
                             setIsDropdownOpen(false);
@@ -162,47 +158,44 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
             <div className="hidden md:flex items-center space-x-2">
               <div className="flex items-center bg-muted/30 rounded-lg p-1 backdrop-blur-sm border border-white/20 shadow-sm">
-                <button 
+                <button
                   onClick={() => {
                     const routeKey = getRouteKeyFromPath(location.pathname);
                     changeLanguage('tr');
                     navigate(getRoute('tr', routeKey), { replace: true });
-                  }} 
-                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                    language === 'tr' 
-                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                  }`}
+                  }}
+                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'tr'
+                    ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                    : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                    }`}
                 >
                   <span className="text-xs">🇹🇷</span>
                   <span>TR</span>
                 </button>
-                <button 
+                <button
                   onClick={() => {
                     const routeKey = getRouteKeyFromPath(location.pathname);
                     changeLanguage('en');
                     navigate(getRoute('en', routeKey), { replace: true });
-                  }} 
-                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                    language === 'en' 
-                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                  }`}
+                  }}
+                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'en'
+                    ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                    : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                    }`}
                 >
                   <span className="text-xs">🇬🇧</span>
                   <span>EN</span>
                 </button>
-                <button 
+                <button
                   onClick={() => {
                     const routeKey = getRouteKeyFromPath(location.pathname);
                     changeLanguage('ar');
                     navigate(getRoute('ar', routeKey), { replace: true });
-                  }} 
-                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                    language === 'ar' 
-                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                  }`}
+                  }}
+                  className={`px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'ar'
+                    ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                    : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                    }`}
                 >
                   <span className="text-xs">🇸🇦</span>
                   <span>AR</span>
@@ -222,10 +215,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="md:hidden bg-background border-t border-border shadow-lg">
             <div className="px-4 py-4 space-y-3">
               {allNavigation.map((item) => (
-                <Link 
-                  key={item.key} 
-                  to={item.href} 
-                  className={`block py-3 px-4 rounded-lg ${isActiveRoute(item.href) ? 'nav-link-active bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20' : 'nav-link hover:bg-muted'}`} 
+                <Link
+                  key={item.key}
+                  to={item.href}
+                  className={`block py-3 px-4 rounded-lg ${isActiveRoute(item.href) ? 'nav-link-active bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20' : 'nav-link hover:bg-muted'}`}
                   onClick={() => {
                     setIsMobileMenuOpen(false);
                     window.scrollTo(0, 0);
@@ -236,47 +229,44 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               ))}
               <div className="flex items-center space-x-2 pt-2">
                 <div className="flex items-center bg-muted/30 rounded-lg p-1 backdrop-blur-sm border border-white/20 shadow-sm">
-                  <button 
+                  <button
                     onClick={() => {
                       const routeKey = getRouteKeyFromPath(location.pathname);
                       changeLanguage('tr');
                       navigate(getRoute('tr', routeKey), { replace: true });
-                    }} 
-                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                      language === 'tr' 
-                        ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                        : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                    }`}
+                    }}
+                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'tr'
+                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                      }`}
                   >
                     <span className="text-xs">🇹🇷</span>
                     <span>TR</span>
                   </button>
-                  <button 
+                  <button
                     onClick={() => {
                       const routeKey = getRouteKeyFromPath(location.pathname);
                       changeLanguage('en');
                       navigate(getRoute('en', routeKey), { replace: true });
-                    }} 
-                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                      language === 'en' 
-                        ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                        : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                    }`}
+                    }}
+                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'en'
+                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                      }`}
                   >
                     <span className="text-xs">🇬🇧</span>
                     <span>EN</span>
                   </button>
-                  <button 
+                  <button
                     onClick={() => {
                       const routeKey = getRouteKeyFromPath(location.pathname);
                       changeLanguage('ar');
                       navigate(getRoute('ar', routeKey), { replace: true });
-                    }} 
-                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${
-                      language === 'ar' 
-                        ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105' 
-                        : 'text-muted-foreground hover:text-primary hover:bg-white/50'
-                    }`}
+                    }}
+                    className={`px-2 py-2 rounded-md text-xs font-medium transition-all duration-300 flex items-center space-x-1 ${language === 'ar'
+                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg transform scale-105'
+                      : 'text-muted-foreground hover:text-primary hover:bg-white/50'
+                      }`}
                   >
                     <span className="text-xs">🇸🇦</span>
                     <span>AR</span>
@@ -296,7 +286,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
-                <img src={logoNoBackground} alt="Aszena Invest Logo" className="w-24 h-24 object-contain" loading="lazy" />
+                <img src={logoAszena} alt="Aszena Invest Logo" className="w-24 h-24 object-contain" loading="lazy" />
               </div>
               <p className="text-white/90 mb-4 text-lg font-semibold">Trust - Vision - Growth</p>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
@@ -319,7 +309,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <div>
               <h3 className="text-lg font-semibold mb-4 text-white">{t('footer.contact')}</h3>
               <div className="space-y-3">
-                <a 
+                <a
                   href="mailto:contact@aszenainvest.hu"
                   className="w-full px-4 py-3 rounded-xl transition-all duration-300 text-left flex items-center space-x-3 bg-white/10 text-white hover:bg-white/20 hover:scale-105 border border-white/20"
                 >
