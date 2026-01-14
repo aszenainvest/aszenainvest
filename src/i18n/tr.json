@@ -5,7 +5,7 @@
     "projectDevelopment": "Proje Geliştirme",
     "projectManagement": "Proje Yönetimi",
     "partnerships": "Ortak Girişim ve İşbirlikleri",
-    "completedProjects": "Başlıca Projeler",
+    "completedProjects": "Tamamlanan Başlıca Projeler",
     "agriculture": "Tarım ve Orman",
     "lifestyle": "Yaşam Tarzı ve Sosyal Yatırımlar",
     "contact": "İletişim",
@@ -392,7 +392,7 @@
     "subtitle": "Başarıyla tamamladığımız prestijli projelerimiz",
     "description": "Macaristan'ın kalbinden başlayarak Hırvatistan'ın Adriyatik kıyılarına ve Yunanistan'ın Ege Denizi'ne uzanan coğrafyada hayata geçirdiğimiz prestijli projelerimiz, uluslararası standartlarda sunduğumuz kaliteli hizmetlerin en değerli kanıtıdır. Bu başarılarımızla, yatırım dünyasında ulaştığımız mükemmellik seviyesinin haklı gururunu taşımaktayız.",
     "stats": {
-      "completed": "Tamamlanan Proje",
+      "completed": "Tamamlanan Başlıca Projeler",
       "ongoing": "Devam Eden Proje",
       "satisfaction": "Müşteri Memnuniyeti",
       "value": "Toplam Proje Değeri"

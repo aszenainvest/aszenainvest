@@ -1,13 +1,13 @@
 import { useLanguage } from '../hooks/useLanguage';
 import { MapPin, Clock } from 'lucide-react';
 import SEO from '../components/SEO';
-import partnershipImage from '../assets/partnership.jpg';
 import holidayImage from '../assets/holiday.png';
 import donobeImage from '../assets/donobe.png';
 import istabulImage from '../assets/istanbul.jpeg';
-import investmentBuildingImage from '../assets/investment-building.jpg';
-import luxuryImage from '../assets/luxury-interior.jpg';
-import skylineImage from '../assets/budapest-skyline.jpg';
+import topImage from '../assets/top.png';
+import nationalImage from '../assets/national.png';
+import heroImage from '../assets/1.jpeg';
+import lifeStyleImage from '../assets/2.jpeg';
 
 const OrtakGirisimiIsbirlikleri = () => {
   const { t } = useLanguage();
@@ -26,14 +26,14 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.nationalPark.location'),
       type: t('partnerships.projects.nationalPark.type'),
       description: t('partnerships.projects.nationalPark.description'),
-      image: partnershipImage
+      image: nationalImage
     },
     {
       title: t('partnerships.projects.militaryArea.name'),
       location: t('partnerships.projects.militaryArea.location'),
       type: t('partnerships.projects.militaryArea.type'),
       description: t('partnerships.projects.militaryArea.description'),
-      image: luxuryImage
+      image: lifeStyleImage
     },
     {
       title: t('partnerships.projects.donobeResort.name'),
@@ -47,7 +47,7 @@ const OrtakGirisimiIsbirlikleri = () => {
       location: t('partnerships.projects.roofTopProject.location'),
       type: t('partnerships.projects.roofTopProject.type'),
       description: t('partnerships.projects.roofTopProject.description'),
-      image: skylineImage
+      image: topImage
     },
     {
       title: t('partnerships.projects.commercialOffice.name'),
@@ -83,7 +83,7 @@ const OrtakGirisimiIsbirlikleri = () => {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${partnershipImage})` }}
+          style={{ backgroundImage: `url(${heroImage})` }}
         >
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
