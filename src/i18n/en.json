@@ -44,8 +44,6 @@
   "achievements": {
     "title": "Our Achievements",
     "subtitle": "We proceed with the understanding that \"Actions speak louder than words.\"",
-    "description": "As Aszena Invest, we derive our strength not from words, but from the projects we have successfully completed to date. Each project is not just an investment for us; it is also a concrete indicator of our vision of creating trust, transparency and sustainable value.",
-    "description2": "At the point we have reached today, the results we have achieved with our completed projects give us justified pride and form a solid foundation for the steps we will take in the future.",
     "description": "As Aszena Invest, we draw our strength not from words but from the projects we have successfully completed to date. Each project is not just an investment for us; it is also a concrete indicator of our vision of creating trust, transparency, and sustainable value.",
     "description2": "At the point we have reached today, the results we have achieved with our completed projects give us justifiable pride and form a solid foundation for the steps we will take in the future.",
     "stats": {
@@ -118,17 +116,6 @@
       "email": "Email",
       "hours": "Working Hours"
     }
-  },
-  "footer": {
-    "description": "Budapest-based professional real estate investment company",
-    "links": {
-      "about": "About Us",
-      "services": "Our Services",
-      "projects": "Our Projects",
-      "contact": "Contact"
-    },
-    "social": "Social Media",
-    "copyright": "© 2025 Aszena Invest. All rights reserved."
   },
   "about": {
     "title": "About Us",
@@ -289,33 +276,23 @@
         "description": "Interior arrangement and furniture application was carried out.",
         "type": "Hotel"
       },
-            "evripidouSuites": {
-              "name": "Evripidou Suites",
-              "location": "Greece, Athens",
-        "description": "Interior arrangement and furniture application was carried out.",
-        "type": "Suites"
-            },
-            "lePrimoreHotel": {
-              "name": "Le Primore Hotel & Spa",
-              "location": "Hungary, Heviz",
-        "description": "Complete architectural design and implementation project for luxury hotel and spa facility was executed from start to finish.",
-        "type": "Hotel & Spa"
-            },
-      "eviaHotel": {
-        "name": "Evia Hotel & Suites",
-        "location": "Greece, Marmari",
-        "description": "Luxury interior design and exclusive furniture collection implemented."
-      },
       "evripidouSuites": {
         "name": "Evripidou Suites",
         "location": "Greece, Athens",
-        "description": "Luxury interior design and exclusive furniture collection implemented."
+        "description": "Interior arrangement and furniture application was carried out.",
+        "type": "Suites"
+      },
+      "lePrimoreHotel": {
+        "name": "Le Primore Hotel & Spa",
+        "location": "Hungary, Heviz",
+        "description": "Complete architectural design and implementation project for luxury hotel and spa facility was executed from start to finish.",
+        "type": "Hotel & Spa"
       },
       "papaAirBase": {
-        "name": "Papa Air Base, Hungary for USACE",
+        "name": "Papa Air Base, Hungary",
         "location": "Pápa, Hungary 2025/-",
-        "description": "Project management and engineering support services are provided for renovation and construction of additional areas in the military air base project located in the city of Pápa, Hungary.",
-        "type": "Military Base"
+        "description": "Project management and engineering support services are provided for renovation and construction of additional areas in the air base project located in the city of Pápa, Hungary.",
+        "type": "Air Base"
       },
       "vittaHotel": {
         "name": "Vitta Hotel Superior Budapest",
@@ -366,7 +343,7 @@
         "name": "Life Style Residential Project",
         "location": "Budapest, Hungary",
         "type": "Residential",
-        "description": "Large-scale residential project development partnership for approximately 1,300 apartments on 80,000 m² land in the city center is ongoing."
+        "description": "Large-scale residential project development partnership for approximately 2,000 apartments on 80,000 m² land in the city center is ongoing."
       },
       "donobeResort": {
         "name": "Danube Nature Resort",
@@ -440,7 +417,7 @@
             "awards": "Best Hotel Bathroom Interior"
           },
           {
-            "year": "2022", 
+            "year": "2022",
             "awards": "Construction Excellence Award (Építőipari Nívódíj), Klasszis TopDesign's Capital City Accommodation, Guest Room and Café"
           },
           {
@@ -565,8 +542,6 @@
       "projects": "Our Projects",
       "contact": "Contact"
     },
-    "contact": "Contact Us",
-    "contactDesc": "Get in touch with us",
     "contact": "Contact Us",
     "contactDesc": "Get in touch with us",
     "social": "Social Media",
