@@ -123,9 +123,10 @@
     "companyName": "Aszena Invest",
     "heroTitle": "About Us",
     "heroSubtitle": "Investment opportunities in Budapest's most prestigious areas with 15 years of experience",
-    "description1": "Aszena Invest is an investment company headquartered in Budapest, the capital of Hungary, specializing in real estate investment, project development and acquisition processes.",
-    "description2": "Operating since 2010, Aszena Invest has developed selected projects in the right locations in Hungary's most prestigious areas throughout its 15-year professional history.",
-    "description3": "Today, Aszena Invest offers reliable, profitable and sustainable opportunities to business partners and potential investors with ongoing and completed projects in important locations in Hungary, especially Budapest.",
+    "description1": "Based in Budapest, the capital of Hungary, Aszena Invest is an investment company specializing in real estate investment, project development, and strategic acquisitions.",
+    "description2": "Operating since 2010 with over 15 years of operational experience, Aszena Invest develops projects by focusing on locations with high value potential in the Hungarian real estate market, in line with a disciplined investment approach and corporate governance principles. Through data-driven feasibility analysis, a strong local network structure, and a sustainable financial modeling approach, the company aims to offer predictable and scalable investment opportunities to its investors.",
+    "description3": "The investments directly developed by Aszena Invest and brought to the Hungarian economy through international collaborations have provided employment for over 400 people to date. This demonstrates that the company not only generates financial performance but also makes a tangible contribution to economic growth, regional development, and social sustainability.",
+    "description4": "Today, through the projects it carries out and has completed in the strategic investment regions of Hungary, primarily in Budapest, Aszena Invest stands as a strong investment partner focused on producing transparent, sustainable, and long-term value for institutional investors.",
     "visionMission": "Vision & Mission",
     "valuesTitle": "Values That Shape Our Future",
     "vision": {
@@ -478,12 +479,12 @@
   "agriculture": {
     "title": "Agriculture and Forest Investments",
     "subtitle": "Ecological Farming of the Future",
-    "description": "In light of global developments in recent years, the significance of future agriculture has been emphasized, with ecological and organic farming taking center stage. In Hungary, we conduct ecological farming operations including alfalfa and wheat production across 4.5 million square meters of agricultural land that we co-own and is under our proprietary rights. Through the implementation of modern technologies and sustainable agricultural practices, we simultaneously protect the environment while producing high-quality organic products. Additionally, on our 150,000 m² forest property, we engage in professional forest management and tree cultivation activities. By employing environmentally conscious forest management practices, we maintain sustainable forestry operations and produce quality timber while preserving the natural ecosystem. Within this domain, we generate economic value and promote biodiversity through the application of modern forestry techniques that respect nature's delicate balance. Guided by sustainable forest management principles, we continue our endeavors with the objective of bequeathing a greener and healthier environment to future generations.",
+    "description": "In light of global developments in recent years, the significance of future agriculture has been emphasized, with ecological and organic farming taking center stage. In Hungary, we conduct ecological farming operations including alfalfa and wheat production across 4.5 million square meters of agricultural land that we co-own and is under our proprietary rights. Through the implementation of modern technologies and sustainable agricultural practices, we simultaneously protect the environment while producing high-quality organic products. Additionally, on our 200,000 m² forest property, we engage in professional forest management and tree cultivation activities. By employing environmentally conscious forest management practices, we maintain sustainable forestry operations and produce quality timber while preserving the natural ecosystem. Within this domain, we generate economic value and promote biodiversity through the application of modern forestry techniques that respect nature's delicate balance. Guided by sustainable forest management principles, we continue our endeavors with the objective of bequeathing a greener and healthier environment to future generations.",
     "stats": {
       "title": "Our Agriculture and Forest Lands",
       "area": "4.5 Million m²",
       "areaDesc": "Total Agricultural Area",
-      "forestArea": "150,000 m²",
+      "forestArea": "200,000 m²",
       "forestAreaDesc": "Forest Area",
       "location": "Hungary",
       "locationDesc": "Strategic Location"
@@ -511,7 +512,7 @@
       },
       "forest": {
         "title": "Forest Management",
-        "description": "On our own 150,000 m² forest area, we conduct professional forest management and tree cultivation activities. Through environmentally friendly forest management practices, we carry out sustainable forestry and quality tree production while protecting the natural ecosystem.",
+        "description": "On our own 200,000 m² forest area, we conduct professional forest management and tree cultivation activities. Through environmentally friendly forest management practices, we carry out sustainable forestry and quality tree production while protecting the natural ecosystem.",
         "features": [
           "Environmentally friendly forest management",
           "Sustainable forestry",

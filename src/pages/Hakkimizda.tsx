@@ -23,7 +23,7 @@ const Hakkimizda = () => {
       <section className="hero-section relative overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${budapestSkyline})` }}>
         </div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="min-h-[60vh] flex items-center justify-center">
             <div className="text-center">
@@ -46,8 +46,11 @@ const Hakkimizda = () => {
               <p className="text-lg leading-relaxed mb-6">
                 {t('about.description2')}
               </p>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed mb-6">
                 {t('about.description3')}
+              </p>
+              <p className="text-lg leading-relaxed">
+                {t('about.description4')}
               </p>
             </div>
           </div>
@@ -64,7 +67,7 @@ const Hakkimizda = () => {
                 {t('about.valuesTitle')}
               </h2>
             </div>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="group p-10 rounded-3xl bg-gradient-to-br from-primary/10 via-white/50 to-primary/5 border-2 border-primary/20 shadow-2xl hover:shadow-3xl transition-all duration-500 animate-slide-up transform hover:scale-105 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -82,7 +85,7 @@ const Hakkimizda = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="group p-10 rounded-3xl bg-gradient-to-br from-accent/10 via-white/50 to-accent/5 border-2 border-accent/20 shadow-2xl hover:shadow-3xl transition-all duration-500 animate-slide-up transform hover:scale-105 relative overflow-hidden" style={{ animationDelay: '0.1s' }}>
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative z-10">
