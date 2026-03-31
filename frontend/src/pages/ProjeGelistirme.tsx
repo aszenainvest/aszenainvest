@@ -5,6 +5,7 @@ import projectDevelopmentImage from '../assets/projectdevelopment.jpeg';
 
 const ProjeGelistirme = () => {
   const { t } = useLanguage();
+  const heroImage = t('development.heroImage') || projectDevelopmentImage;
 
   const processCards = [
     {
@@ -41,7 +42,7 @@ const ProjeGelistirme = () => {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${projectDevelopmentImage})` }}
+          style={{ backgroundImage: `url(${heroImage})` }}
         >
         </div>
 

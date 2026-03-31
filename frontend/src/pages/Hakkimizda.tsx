@@ -6,6 +6,7 @@ import investmentBuilding from '../assets/investment-building.jpg';
 
 const Hakkimizda = () => {
   const { t } = useLanguage();
+  const heroImage = t('about.heroImage') || budapestSkyline;
 
   const highlights = [
     { icon: MapPin, label: t('about.highlights.location'), color: 'text-primary' },
@@ -21,7 +22,7 @@ const Hakkimizda = () => {
       <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="hero-section relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${budapestSkyline})` }}>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroImage})` }}>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

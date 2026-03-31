@@ -17,10 +17,11 @@ import heroBudapest from '../assets/hero-budapest.jpg';
 
 const Home = () => {
   const { t, language } = useLanguage();
+  const heroImage = t('home.heroImage') || heroBudapest;
 
   const stats = [
-    { icon: Ruler, number: '+200.000 m²', label: t('stats.projectDevelopment') },
-    { icon: Building2, number: '+300 mn €', label: t('stats.projectValue') }
+    { icon: Ruler, number: t('home.stats.areaNumber') || '+200.000 m²', label: t('stats.projectDevelopment') },
+    { icon: Building2, number: t('home.stats.valueNumber') || '+300 mn €', label: t('stats.projectValue') }
   ];
 
   return (
@@ -28,7 +29,7 @@ const Home = () => {
       <SEO url="https://www.aszenainvest.hu" />
       {/* Hero Section */}
       <section className="relative min-h-[70vh] md:min-h-[80vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroBudapest})` }}>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroImage})` }}>
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
         </div>
 
@@ -120,7 +121,7 @@ const Home = () => {
                 <div className="p-8 rounded-full bg-gradient-to-br from-primary/20 to-primary/10 w-fit mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">
                   <Building2 className="w-14 h-14 text-primary" />
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-primary mb-6 group-hover:text-primary-deep transition-colors duration-300">+300mn €</div>
+                <div className="text-3xl md:text-4xl font-bold text-primary mb-6 group-hover:text-primary-deep transition-colors duration-300">{t('home.achievements.realEstateNumber') || '+300mn €'}</div>
                 <div className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">{t('achievements.stats.realEstate')}</div>
               </div>
             </div>
@@ -131,7 +132,7 @@ const Home = () => {
                 <div className="p-8 rounded-full bg-gradient-to-br from-accent/20 to-accent/10 w-fit mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">
                   <Ruler className="w-14 h-14 text-accent" />
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-accent mb-6 group-hover:text-accent-deep transition-colors duration-300">+200.000 m²</div>
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-6 group-hover:text-accent-deep transition-colors duration-300">{t('home.achievements.projectDevelopmentNumber') || '+200.000 m²'}</div>
                 <div className="text-xl font-semibold text-foreground group-hover:text-accent transition-colors duration-300">{t('achievements.stats.projectDevelopment')}</div>
               </div>
             </div>
@@ -142,7 +143,7 @@ const Home = () => {
                 <div className="p-8 rounded-full bg-gradient-to-br from-primary/20 to-primary/10 w-fit mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">
                   <TrendingUp className="w-14 h-14 text-primary" />
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-primary mb-6 group-hover:text-primary-deep transition-colors duration-300">+350 mn €</div>
+                <div className="text-3xl md:text-4xl font-bold text-primary mb-6 group-hover:text-primary-deep transition-colors duration-300">{t('home.achievements.projectManagementNumber') || '+350 mn €'}</div>
                 <div className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">{t('achievements.stats.projectManagement')}</div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const TamamlananProjeler = () => {
       year: '2016',
       type: t('projectManagement.references.centralPalace.type'),
       description: t('projectManagement.references.centralPalace.description'),
-      image: centralPalaceImage
+      image: t('project.centralPalace.image') || centralPalaceImage
     },
     {
       title: t('projectManagement.references.eskiFabrika.name'),
@@ -37,7 +37,7 @@ const TamamlananProjeler = () => {
       year: '2018',
       type: t('projectManagement.references.eskiFabrika.type'),
       description: t('projectManagement.references.eskiFabrika.description'),
-      image: eskiFabrikaImage
+      image: t('project.eskiFabrika.image') || eskiFabrikaImage
     },
     {
       title: t('projectManagement.references.maarif.name'),
@@ -45,7 +45,7 @@ const TamamlananProjeler = () => {
       year: '2022',
       type: t('projectManagement.references.maarif.type'),
       description: t('projectManagement.references.maarif.description'),
-      image: maarifImage
+      image: t('project.maarif.image') || maarifImage
     },
     {
       title: t('projectManagement.references.matildPalace.name'),
@@ -53,7 +53,7 @@ const TamamlananProjeler = () => {
       year: '2014 - 2021',
       type: t('projectManagement.references.matildPalace.type'),
       description: t('projectManagement.references.matildPalace.description'),
-      image: matildBg2Image
+      image: t('project.matildPalace.image') || matildBg2Image
     },
     {
       title: t('projectManagement.references.brownBeach.name'),
@@ -61,7 +61,7 @@ const TamamlananProjeler = () => {
       year: '2022',
       type: t('projectManagement.references.brownBeach.type'),
       description: t('projectManagement.references.brownBeach.description'),
-      image: brownBeachImage
+      image: t('project.brownBeach.image') || brownBeachImage
     },
     {
       title: t('projectManagement.references.bluesunHotel.name'),
@@ -69,7 +69,7 @@ const TamamlananProjeler = () => {
       year: '2022',
       type: t('projectManagement.references.bluesunHotel.type'),
       description: t('projectManagement.references.bluesunHotel.description'),
-      image: bluesunHotelImage
+      image: t('project.bluesunHotel.image') || bluesunHotelImage
     },
     {
       title: t('projectManagement.references.hotelContinental.name'),
@@ -77,7 +77,7 @@ const TamamlananProjeler = () => {
       year: '2023',
       type: t('projectManagement.references.hotelContinental.type'),
       description: t('projectManagement.references.hotelContinental.description'),
-      image: hotelContinentalImage
+      image: t('project.hotelContinental.image') || hotelContinentalImage
     },
     {
       title: t('projectManagement.references.brownBeachGreece.name'),
@@ -85,7 +85,7 @@ const TamamlananProjeler = () => {
       year: '2023',
       type: t('projectManagement.references.brownBeachGreece.type'),
       description: t('projectManagement.references.brownBeachGreece.description'),
-      image: brownEviaImage
+      image: t('project.brownBeachGreece.image') || brownEviaImage
     },
     {
       title: t('projectManagement.references.eviaHotel.name'),
@@ -93,7 +93,7 @@ const TamamlananProjeler = () => {
       year: '2023',
       type: t('projectManagement.references.eviaHotel.type'),
       description: t('projectManagement.references.eviaHotel.description'),
-      image: eviaHotelImage
+      image: t('project.eviaHotel.image') || eviaHotelImage
     },
     {
       title: t('projectManagement.references.evripidouSuites.name'),
@@ -101,7 +101,7 @@ const TamamlananProjeler = () => {
       year: '2023',
       type: t('projectManagement.references.evripidouSuites.type'),
       description: t('projectManagement.references.evripidouSuites.description'),
-      image: evripidouImage
+      image: t('project.evripidouSuites.image') || evripidouImage
     },
     {
       title: t('projectManagement.references.sevenVilla.name'),
@@ -109,7 +109,7 @@ const TamamlananProjeler = () => {
       year: '2025',
       type: t('projectManagement.references.sevenVilla.type'),
       description: t('projectManagement.references.sevenVilla.description'),
-      image: sevenVillaImage
+      image: t('project.sevenVilla.image') || sevenVillaImage
     },
     {
       title: t('projectManagement.references.lePrimoreHotel.name'),
@@ -117,7 +117,7 @@ const TamamlananProjeler = () => {
       year: '2024-2025',
       type: t('projectManagement.references.lePrimoreHotel.type'),
       description: t('projectManagement.references.lePrimoreHotel.description'),
-      image: lePrimoreImage
+      image: t('project.lePrimoreHotel.image') || lePrimoreImage
     },
     {
       title: t('projectManagement.references.hyattRegency.name'),
@@ -125,7 +125,7 @@ const TamamlananProjeler = () => {
       year: '2025',
       type: t('projectManagement.references.hyattRegency.type'),
       description: t('projectManagement.references.hyattRegency.description'),
-      image: hyattRegencyImage
+      image: t('project.hyattRegency.image') || hyattRegencyImage
     },
     {
       title: t('projectManagement.references.vittaHotel.name'),
@@ -133,7 +133,7 @@ const TamamlananProjeler = () => {
       year: '2019',
       type: t('projectManagement.references.vittaHotel.type'),
       description: t('projectManagement.references.vittaHotel.description'),
-      image: vittaHotelImage
+      image: t('project.vittaHotel.image') || vittaHotelImage
     }
   ];
 

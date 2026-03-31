@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, Outlet } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
 import { getRoute } from '../utils/routes';
 import Navbar from './Navbar';
@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 // Footer uses white logo
 const logoAszena = '/aszena.png';
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout = ({ children }: { children?: React.ReactNode }) => {
   const { language, changeLanguage, t } = useLanguage();
   const location = useLocation();
 
@@ -54,7 +54,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <div className={`min-h-screen bg-background ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
       <Navbar />
 
-      <main>{children}</main>
+      <main>{children || <Outlet />}</main>
 
       <footer className="bg-gradient-to-br from-primary-deep via-primary to-primary-light text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
@@ -86,12 +86,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <h3 className="text-lg font-semibold mb-4 text-white">{t('footer.contact')}</h3>
               <div className="space-y-3">
                 <a
-                  href="mailto:contact@aszenainvest.hu"
+                  href={`mailto:${t('footer.contact.email') || 'contact@aszenainvest.hu'}`}
                   className="w-full px-4 py-3 rounded-xl transition-all duration-300 text-left flex items-center space-x-3 bg-white/10 text-white hover:bg-white/20 hover:scale-105 border border-white/20"
                 >
                   <span className="text-xl">📧</span>
                   <div>
-                    <div className="font-semibold">contact@aszenainvest.hu</div>
+                    <div className="font-semibold">{t('footer.contact.email') || 'contact@aszenainvest.hu'}</div>
                     <div className="text-xs opacity-70">{t('footer.contactDesc')}</div>
                   </div>
                 </a>

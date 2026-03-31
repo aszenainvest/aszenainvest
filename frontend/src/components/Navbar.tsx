@@ -20,10 +20,10 @@ import {
     DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 
-const logoAszena = '/aszena.png';
 
 const Navbar = () => {
     const { language, changeLanguage, t } = useLanguage();
+    const logoAszena = t('nav.logo') || '/aszena.png';
     const location = useLocation();
     const navigate = useNavigate();
     const [scrolled, setScrolled] = useState(false);

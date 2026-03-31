@@ -9,9 +9,10 @@ type LanguageContextValue = {
   language: Language;
   changeLanguage: (lang: Language) => void;
   t: (key: string) => string;
+  loading: boolean;
 };
 
-const translations = {
+const localTranslations = {
   tr: trTranslations,
   en: enTranslations,
   ar: arTranslations,
@@ -19,38 +20,64 @@ const translations = {
 
 const LanguageContext = createContext<LanguageContextValue | undefined>(undefined);
 
+const API_URL = "/api"; // Railway URL buraya gelecek
+
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguage] = useState<Language>('tr');
+  const [dynamicTranslations, setDynamicTranslations] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-  // Detect language from URL on mount
+  const fetchTranslations = async (lang: string) => {
+    try {
+      setLoading(true);
+      const response = await fetch(`${API_URL}/content/${lang}`);
+      if (response.ok) {
+        const data = await response.json();
+        setDynamicTranslations(data);
+      }
+    } catch (error) {
+      console.warn("Could not fetch remote translations, using local fallback.", error);
+      setDynamicTranslations(null);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Detect language and fetch translations
   useEffect(() => {
     const pathname = window.location.pathname;
+    let currentLang: Language = 'tr';
+    
     if (pathname.startsWith('/tr')) {
-      setLanguage('tr');
-      localStorage.setItem('aszena-language', 'tr');
+      currentLang = 'tr';
     } else if (pathname.startsWith('/en')) {
-      setLanguage('en');
-      localStorage.setItem('aszena-language', 'en');
+      currentLang = 'en';
     } else if (pathname.startsWith('/ar')) {
-      setLanguage('ar');
-      localStorage.setItem('aszena-language', 'ar');
+      currentLang = 'ar';
     } else {
-      // Check localStorage or default to Turkish
       const saved = localStorage.getItem('aszena-language') as Language;
-      if (saved === 'tr' || saved === 'en' || saved === 'ar') {
-        setLanguage(saved);
-      }
+      if (saved === 'tr' || saved === 'en' || saved === 'ar') currentLang = saved;
     }
+    
+    setLanguage(currentLang);
+    fetchTranslations(currentLang);
   }, []);
 
   const changeLanguage = (lang: Language) => {
     setLanguage(lang);
     localStorage.setItem('aszena-language', lang);
+    fetchTranslations(lang);
   };
 
   const t = (key: string): string => {
+    // 1. Try dynamic translations from DB
+    if (dynamicTranslations && dynamicTranslations[key]) {
+      return dynamicTranslations[key];
+    }
+
+    // 2. Fallback to local JSON files (nested search)
     const keys = key.split('.');
-    let value: any = translations[language as Language];
+    let value: any = localTranslations[language as Language];
     for (const k of keys) {
       value = value?.[k];
     }
@@ -59,7 +86,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
 
   return React.createElement(
     LanguageContext.Provider,
-    { value: { language, changeLanguage, t } },
+    { value: { language, changeLanguage, t, loading } },
     children
   );
 };
@@ -67,19 +94,11 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
 export const useLanguage = () => {
   const ctx = useContext(LanguageContext);
   if (!ctx) {
-    // Fallback to default behavior if provider is missing
-    const fallbackT = (key: string): string => {
-      const keys = key.split('.');
-      let value: any = translations.tr;
-      for (const k of keys) {
-        value = value?.[k];
-      }
-      return value || key;
-    };
     return {
       language: 'tr' as Language,
       changeLanguage: () => {},
-      t: fallbackT,
+      t: (key: string) => key,
+      loading: false
     };
   }
   return ctx;

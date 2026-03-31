@@ -14,6 +14,8 @@ import OrtakGirisimiIsbirlikleri from "./pages/OrtakGirisimiIsbirlikleri";
 import TamamlananProjeler from "./pages/TamamlananProjeler";
 import Tarim from "./pages/Tarim";
 import YasamTarzi from "./pages/YasamTarzi";
+import Login from "./pages/admin/Login";
+import Dashboard from "./pages/admin/Dashboard";
 
 const queryClient = new QueryClient();
 
@@ -23,10 +25,21 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Layout>
-          <Routes>
+        <Routes>
+          {/* Admin Routes (No Layout) */}
+          <Route path="/admin" element={<Navigate to="/admin/login" replace />} />
+          <Route path="/admin/login" element={<Login />} />
+          <Route path="/admin/dashboard" element={<Dashboard />} />
+
+          {/* Public Routes (With Layout) */}
+          <Route element={<Layout />}>
             {/* Root redirect to Turkish */}
             <Route path="/" element={<Navigate to="/tr" replace />} />
+            
+            {/* Language-prefixed redirects to admin */}
+            <Route path="/tr/admin" element={<Navigate to="/admin/login" replace />} />
+            <Route path="/en/admin" element={<Navigate to="/admin/login" replace />} />
+            <Route path="/ar/admin" element={<Navigate to="/admin/login" replace />} />
             
             {/* Turkish Routes */}
             <Route path="/tr" element={<Home />} />
@@ -72,11 +85,12 @@ const App = () => (
             <Route path="/iletisim" element={<Navigate to="/tr/iletisim" replace />} />
             
             <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
+          </Route>
+        </Routes>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
 
 export default App;
+
